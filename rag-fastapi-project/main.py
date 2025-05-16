@@ -1,5 +1,3 @@
-
-
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from pydantic_models import QueryInput, QueryResponse, DocumentInfo, DeleteFileRequest
 from langchain_utils import get_rag_chain
@@ -11,7 +9,7 @@ import logging
 import shutil
 
 # Set up logging
-logging.basicConfig(filename='rag-fastapi-project/api.log', level=logging.INFO)
+logging.basicConfig(filename='logs/api.log', level=logging.INFO)
 
 # Initialize FastAPI app
 app = FastAPI()
@@ -22,22 +20,26 @@ def chat(query_input: QueryInput):
     logging.info(f"Session ID: {session_id}, User Query: {query_input.question}, Model: {query_input.model.value}")
     chat_history = get_chat_history(session_id)
     rag_chain = get_rag_chain(query_input.model.value)
-    answer = rag_chain.invoke({
+    result = rag_chain.invoke({
         "input": query_input.question,
         "chat_history": chat_history
-    })['answer']
+    })
+    answer = result['answer']
+    context = result.get('context', [])
+    print(f"Retrieved {len(context)} documents: {[doc.page_content[:100] for doc in context]}")
     insert_application_logs(session_id, query_input.question, answer, query_input.model.value)
     logging.info(f"Session ID: {session_id}, AI Response: {answer}")
     return QueryResponse(answer=answer, session_id=session_id, model=query_input.model)
 
 @app.post("/upload-doc")
 def upload_and_index_document(file: UploadFile = File(...)):
-    allowed_extensions = ['.pdf', '.docx']
+    allowed_extensions = ['.pdf', '.docx', '.txt']
     file_extension = os.path.splitext(file.filename)[1].lower()
     if file_extension not in allowed_extensions:
         raise HTTPException(status_code=400, detail=f"Unsupported file type. Allowed types are: {', '.join(allowed_extensions)}")
-    temp_file_path = f"rag-fastapi-project/temp_{file.filename}"
+    temp_file_path = f"temp/{file.filename}"
     try:
+        os.makedirs("temp", exist_ok=True)
         with open(temp_file_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
         file_id = insert_document_record(file.filename)
@@ -58,11 +60,12 @@ def list_documents():
 @app.post("/delete-doc")
 def delete_document(request: DeleteFileRequest):
     faiss_delete_success = delete_doc_from_faiss(request.file_id)
-    if faiss_delete_success:
-        db_delete_success = delete_document_record(request.file_id)
-        if db_delete_success:
-            return {"message": f"Successfully deleted document with file_id {request.file_id}."}
-        else:
-            return {"error": f"Deleted from FAISS but failed to delete document with file_id {request.file_id} from database."}
+    db_delete_success = delete_document_record(request.file_id)
+    if faiss_delete_success and db_delete_success:
+        return {"message": f"Successfully deleted document with file_id {request.file_id}."}
+    elif faiss_delete_success:
+        return {"error": f"Deleted from FAISS but failed to delete document with file_id {request.file_id} from database."}
+    elif db_delete_success:
+        return {"error": f"Deleted from database but failed to delete document with file_id {request.file_id} from FAISS."}
     else:
-        return {"error": f"Failed to delete document with file_id {request.file_id} from FAISS."}
+        return {"error": f"Failed to delete document with file_id {request.file_id} from both FAISS and database."}

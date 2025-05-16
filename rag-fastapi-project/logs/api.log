@@ -1,0 +1,26 @@
+INFO:root:Session ID: string, User Query: what normal registration date, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't specify a "normal registration date" for general course registration.  It only outlines registration deadlines and timelines for specific situations like make-up exams, re-examinations, and re-registration for failed projects.  More information is needed to answer your question.
+
+INFO:root:Session ID: string, User Query: course waiver, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Course waivers allow students to bypass one or more courses under exceptional circumstances.  The request can originate from the student or their advisor, but requires approval from both the School Managing Council (SMC) and the University Senate.  However, waivers are generally not permitted for major/core courses or prerequisites.  Only students who have completed all other graduation requirements are typically eligible.  A maximum of two courses can be waived per student.  Course waivers may be considered as a last resort for students experiencing "course allergic" situations (failing a course three times), if an equivalent course cannot be substituted.
+
+INFO:root:Session ID: string, User Query: course waiver, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Course waivers are granted under exceptional circumstances, allowing students to bypass one or more courses.  The process requires a request (from the student or advisor), approval by the School Managing Council (SMC), and final endorsement from the University Senate.  However, waivers are generally not allowed for major/core courses or prerequisites.  Eligibility is typically limited to students who've completed all other graduation requirements, with a maximum of two waivers per student.  Waivers might be considered for students who have failed a course three times ("course allergic") if a suitable alternative course isn't available.
+
+INFO:root:Session ID: string, User Query: brucli, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text does not contain any information about "brucli."  Therefore, I cannot answer your question.
+
+INFO:root:Session ID: string, User Query: brucli, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text does not contain any information about "brucli."  Therefore, I cannot answer your question.
+
+INFO:root:Session ID: string, User Query: dual degree, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text refers to a "double major," not a "dual degree."  A double major allows a student to complete the requirements for two different majors within a single bachelor's degree program.  The text states that students in good academic standing may pursue a double major, combining majors from two different programs, to prepare them for complex real-world problems requiring interdisciplinary knowledge.  There is no information about dual degrees (which typically involve two separate degrees, such as a BA and an MA).
+
+INFO:root:Session ID: string, User Query: so what is its requirement, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The requirements for a double major are to successfully complete all courses for both majors.  Credit requirements vary.  For SoCEA, SoEEC, and SoMCM, specific credit point totals are defined for each program, while SoANS uses different credit points.  A minor requires completing all courses specified by the minor program in addition to the primary major's requirements.  Minor credit requirements are 27 credit points for SoCEA, SoEEC, and SoMCM programs.
+
+INFO:root:Session ID: string, User Query: tell me about graduation failer, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Graduation failure occurs when an undergraduate student completes their coursework but doesn't meet all graduation requirements. This can be due to failing grades ('F' or 'D') in one or more courses, or an insufficient Cumulative Grade Point Average (CGPA) or Major Grade Point Average (MGPA).
+
+If the failure is due to 'F' or 'D' grades, the student may be allowed by their School Managing Council (SMC) to repeat the failed course(s), provided the course(s) haven't been discontinued.  The provided text does not detail procedures for CGPA or MGPA deficiencies.
+

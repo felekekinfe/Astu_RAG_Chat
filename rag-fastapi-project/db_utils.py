@@ -1,10 +1,8 @@
-# Cell 13: Create db_utils.py
-
 import sqlite3
 from datetime import datetime
 from langchain_core.messages import HumanMessage, AIMessage
 
-DB_NAME = "rag-fastapi-project/rag_app.db"
+DB_NAME = "rag-f.db"
 
 def get_db_connection():
     conn = sqlite3.connect(DB_NAME)
@@ -59,14 +57,18 @@ def insert_document_record(filename):
     file_id = cursor.lastrowid
     conn.commit()
     conn.close()
+    print(f"Inserted document record for {filename} with file_id {file_id}")
     return file_id
 
 def delete_document_record(file_id):
     conn = get_db_connection()
-    conn.execute('DELETE FROM document_store WHERE id = ?', (file_id,))
+    cursor = conn.cursor()
+    cursor.execute('DELETE FROM document_store WHERE id = ?', (file_id,))
+    deleted_rows = cursor.rowcount
     conn.commit()
     conn.close()
-    return True
+    print(f"Deleted {deleted_rows} document records with id {file_id}")
+    return deleted_rows > 0
 
 def get_all_documents():
     conn = get_db_connection()
