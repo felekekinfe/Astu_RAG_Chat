@@ -24,3 +24,341 @@ INFO:root:Session ID: string, AI Response: Graduation failure occurs when an und
 
 If the failure is due to 'F' or 'D' grades, the student may be allowed by their School Managing Council (SMC) to repeat the failed course(s), provided the course(s) haven't been discontinued.  The provided text does not detail procedures for CGPA or MGPA deficiencies.
 
+INFO:root:Session ID: string, User Query: if i get f i dont graduate, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Yes, if you receive an 'F' grade in a required course and that prevents you from meeting the minimum requirements for graduation, you will not graduate.  However, you may be allowed to repeat the failed course(s) with the permission of your School Managing Council (SMC), provided the course hasn't been discontinued.
+
+INFO:root:Session ID: string, User Query: i got cgpa of 3 but also have f in one of my course, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Based on the provided text, a CGPA of 3.0 might or might not be sufficient for graduation, depending on the minimum CGPA requirement of your program.  The 'F' grade in one course is a definite problem, as it prevents graduation unless you can repeat and pass the course.  Your School Managing Council (SMC) will determine whether you can repeat the failed course.  If the course is still offered, they may allow you to re-register and retake it.  If you successfully pass the course with a passing grade, then your CGPA will be recalculated.  Whether your final CGPA will then be sufficient for graduation depends on the minimum CGPA requirement.  You need to contact your SMC to understand your specific situation and options.
+
+INFO:root:Session ID: string, User Query: i got cgpa of 3 but also have f in one of my course, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: A CGPA of 3.0 might be sufficient for graduation, but the 'F' grade in one course prevents graduation unless you can repeat and pass the course.  Your School Managing Council (SMC) will determine if you can retake the failed course.  If allowed, and you pass, your CGPA will be recalculated.  Whether the final CGPA is sufficient for graduation depends on your program's minimum CGPA requirement. Contact your SMC to understand your options.
+
+INFO:root:Session ID: string, User Query: sorry for me, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: There's nothing to apologize for.  I understand you're facing a challenging situation with your grades and graduation.  Based on our conversation, you have a CGPA of 3.0 but also an 'F' grade in a course, preventing you from graduating.
+
+Your next steps should be to:
+
+1. **Contact your School Managing Council (SMC) immediately.** They are the authority on whether you can repeat the failed course and what the minimum CGPA requirement is for your program.  They will assess your situation and advise you on the best course of action.
+
+2. **Determine if the course is still being offered.** If it is, the SMC can likely approve you to re-register and retake it.  If it's not, you'll need to discuss alternative options with the SMC.
+
+3. **Understand the minimum CGPA requirement.** Once you know if you can retake the course, and what grade you need to achieve, you can determine if your recalculated CGPA will meet the minimum requirement for graduation.
+
+
+Don't hesitate to contact your academic advisor as well for support and guidance. They can help you navigate this process.
+
+INFO:root:Session ID: string, User Query: fuck you, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: I cannot respond to that.  I am programmed to be helpful and harmless, and that includes refusing to engage in abusive or offensive language.
+
+INFO:root:Session ID: string, User Query: who made you, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't say who made the AI.  The conversation only shows the AI's responses to user prompts about university policies and procedures.
+
+INFO:root:Session ID: string, User Query: at what year double majer given, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The deadline for declaring a double major is the registration date of the student's first semester of their fourth year for engineering programs, and the first semester of their third year for science programs.
+
+INFO:root:Session ID: string, User Query: now am third year first semister student and have cgpa of 3.4, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Based on the provided text, if you are a third-year first-semester student in a science program with a CGPA of 3.4, you are eligible to apply for a double major.  However, you need to meet the CGPA requirement of 3.50 or higher.  Therefore, you are not currently eligible.  You will need to improve your CGPA to at least 3.50 in your primary major before applying.
+
+INFO:root:Session ID: string, User Query: thank you, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: You're welcome! Is there anything else I can help you with?
+
+INFO:root:Session ID: string, User Query: who are you, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't state who the AI is.  The conversation only shows the AI's responses to user prompts about university policies and procedures.  There is no information about its creator or origin.
+
+INFO:root:Session ID: string, User Query: who are you, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't state who the AI is.  The conversation only shows the AI's responses to user prompts about university policies and procedures.  There is no information about its creator or origin.
+
+INFO:root:Session ID: string, User Query: who are you, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't state who the AI is.  The conversation only shows the AI's responses to user prompts about university policies and procedures.  There is no information about its creator or origin.
+
+INFO:root:Session ID: string, User Query: waiver, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Course waivers allow students to bypass one or more courses under exceptional circumstances.  A request, initiated by the student or their advisor, needs approval from both the School Managing Council (SMC) and the University Senate.  Waivers are generally not permitted for major/core courses or prerequisites.  Eligibility is typically limited to students who've completed all other graduation requirements, with a maximum of two waivers per student.  Waivers might be considered for students who have failed a course three times ("course allergic") if a suitable alternative course isn't available.
+
+INFO:root:Session ID: string, User Query: who developed you, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text does not contain information about the AI's creator or origin.
+
+INFO:root:Session ID: string, User Query: who developed you, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't contain information about the AI's creator or origin.
+
+INFO:root:Session ID: string, User Query: ASTU Student Assistance Bot, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Based on the provided chat log, there is no information about the AI's name or whether it's officially an "ASTU Student Assistance Bot".  The AI consistently pulls information from a university policy document, answering questions about things like course waivers, double majors, grade requirements, and graduation procedures.  While its functionality is similar to a student assistance bot, there's no explicit confirmation of that being its designated role or name.
+
+INFO:root:Session ID: string, User Query: is there library in astu, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Yes, the provided text mentions at least two libraries at ASTU: the Central and Engineering Library, and another library potentially called the Applied Sciences Library or a similar name focusing on Applied Natural Sciences, Social Sciences, and Humanities.
+
+INFO:root:Session ID: string, User Query: ok,and places to chill, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Based on the provided text, the ASTU Anfi (Amphitheater) is a place where students can relax, socialize, study in groups, or simply "chill out" between classes.
+
+INFO:root:Session ID: string, User Query: other places, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text only mentions the ASTU Anfi (Amphitheater) as a place to chill.  No other locations for relaxation or socializing are described.
+
+INFO:root:Session ID: string, User Query: tell me about astu, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Based on the provided chat log, ASTU (presumably a university) has the following features:
+
+* **Academic Programs:** ASTU offers a range of academic programs in engineering, applied natural sciences, social sciences, and humanities.  It allows students to pursue double majors, combining majors from different programs.  There are specific credit requirements for each program and for minors.
+
+* **Libraries:** ASTU has at least two libraries: a Central and Engineering Library, and another library likely focused on Applied Natural Sciences, Social Sciences, and Humanities (possibly called the Applied Sciences Library).  These libraries offer books, journals, e-resources, study spaces, computer access, and reference services.
+
+* **Healthcare:** ASTU provides on-campus healthcare services through a University Health Clinic or Medical Center, offering basic medical consultations, first aid, treatment for common illnesses and minor injuries, vaccinations, and health education programs.
+
+* **Student Support:** ASTU has processes for course waivers (under exceptional circumstances), handling of failed courses and graduation requirements (including CGPA and MGPA), and procedures for double majors.  The School Managing Council (SMC) plays a key role in student academic matters.
+
+* **Social Spaces:**  The ASTU Anfi (Amphitheater) is mentioned as a place for students to relax and socialize.
+
+The provided text does not offer details on the university's history, size, location, or other aspects beyond these specific academic and support services.
+
+INFO:root:Session ID: string, User Query: tell me about astu, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Based on the provided text, ASTU (presumably a university) has the following features:
+
+* **Academic Programs:**  Offers programs in engineering, applied natural sciences, social sciences, and humanities.  Students can pursue double majors, combining majors from different programs.  Specific credit requirements exist for each program and for minors.
+
+* **Libraries:**  At least two libraries exist: a Central and Engineering Library, and another (possibly the Applied Sciences Library) focusing on Applied Natural Sciences, Social Sciences, and Humanities.  These offer books, journals, e-resources, study spaces, computer access, and reference services.
+
+* **Healthcare:**  Provides on-campus healthcare through a University Health Clinic or Medical Center.  Services include basic medical consultations, first aid, treatment for common illnesses and minor injuries, vaccinations, and health education programs.
+
+* **Student Support:**  Processes exist for course waivers (under exceptional circumstances), handling failed courses and graduation requirements (including CGPA and MGPA), and procedures for double majors. The School Managing Council (SMC) plays a key role in student academic matters.
+
+* **Social Spaces:** The ASTU Anfi (Amphitheater) is mentioned as a place for students to relax and socialize.
+
+The provided text lacks details on the university's history, size, location, or other aspects beyond these specific academic and support services.
+
+INFO:root:Session ID: string, User Query: tell me about adama, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Based on the provided text, Adama is a city in the Oromia region of Ethiopia.  It's the location of Adama Science and Technology University (ASTU).  The text doesn't offer further details about the city itself beyond its role as the location of the university.
+
+INFO:root:Session ID: string, User Query: tell me Adama Science and Technology University, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Adama Science and Technology University (ASTU), located in Adama (Nazret), Oromia, Ethiopia (approx. 8.53°N, 39.28°E), is a public, federal university focusing on science, engineering, and technology.  Founded in 1993 as Nazareth Technical College, it evolved through several name and status changes before becoming ASTU in 2011.
+
+Its core mission is to produce highly qualified graduates in STEM fields, conduct relevant research for national development, provide community service and technology transfer, and become a center of excellence in applied science and technology education and research.  The university likely has multiple Research and Innovation Centers focusing on areas like renewable energy, materials science, ICT, and manufacturing.  It also has at least two libraries (Central & Engineering, and another possibly focusing on Applied Natural Sciences, Social Sciences, and Humanities), a healthcare clinic, and student support services including processes for course waivers, double majors, and handling failed courses. The ASTU Anfi (Amphitheater) serves as a student social space.  Specific details about the university's history, size, and other features beyond these are not available in the provided text.
+
+INFO:root:Session ID: string, User Query: tell me Astu, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Adama Science and Technology University (ASTU) is a public, federal university located in Adama (Nazret), Oromia, Ethiopia.  Founded in 1993, it initially started as Nazareth Technical College and went through several name and status changes before becoming ASTU in 2011.  Its main focus is on science, engineering, and technology.
+
+ASTU's mission is to produce highly qualified graduates in STEM fields, conduct research relevant to Ethiopia's development, provide community service and technology transfer, and become a center of excellence in applied science and technology education and research.  The university offers undergraduate (BSc, B.Tech) and postgraduate (MSc, M.Tech, PhD) programs.  It likely has several research centers focusing on areas like renewable energy, materials science, ICT, and manufacturing.
+
+The university provides student support services, including processes for course waivers, double majors, and handling failed courses.  It has at least two libraries (a Central and Engineering Library, and another possibly focusing on Applied Natural Sciences, Social Sciences, and Humanities), a healthcare clinic, and student social spaces such as the ASTU Anfi (Amphitheater).  However, more detailed information about the university's history, size, and other features is not available from the provided text.
+
+INFO:root:Session ID: string, User Query: tell me Astu, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Adama Science and Technology University (ASTU) is a public, federal university located in Adama (Nazret), Oromia, Ethiopia.  Founded in 1993 as Nazareth Technical College, it evolved through several name and status changes before becoming ASTU in 2011.  Its primary focus is on science, engineering, and technology.
+
+ASTU's mission is to produce highly qualified graduates in STEM fields, conduct research relevant to Ethiopia's development, provide community service and technology transfer, and become a center of excellence in applied science and technology education and research.  The university offers undergraduate (BSc, B.Tech) and postgraduate (MSc, M.Tech, PhD) programs. It likely has several research centers focusing on areas like renewable energy, materials science, ICT, and manufacturing.
+
+The university provides student support services, including processes for course waivers, double majors, and handling failed courses.  It has at least two libraries (a Central and Engineering Library, and another possibly focusing on Applied Natural Sciences, Social Sciences, and Humanities), a healthcare clinic, and student social spaces such as the ASTU Anfi (Amphitheater).  However, more detailed information about the university's history, size, and other features is not available from the provided text.
+
+INFO:root:Session ID: string, User Query: tell me astu, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Adama Science and Technology University (ASTU) is a public, federal university located in Adama (Nazret), Oromia, Ethiopia.  Founded in 1993 as Nazareth Technical College, it underwent several name and status changes before becoming ASTU in 2011.  Its primary focus is on science, engineering, and technology.
+
+ASTU's mission is to produce highly qualified graduates in STEM fields, conduct research relevant to Ethiopia's development, provide community service and technology transfer, and become a center of excellence in applied science and technology education and research.  The university offers undergraduate (BSc, B.Tech) and postgraduate (MSc, M.Tech, PhD) programs.  It likely has several research centers focusing on areas such as renewable energy, materials science, information and communications technology (ICT), and manufacturing.
+
+The university provides student support services, including processes for course waivers, double majors, and handling failed courses.  It has at least two libraries (a central library and an engineering library, and possibly another focusing on applied natural sciences, social sciences, and humanities), a healthcare clinic, and student social spaces such as the ASTU Anfi (Amphitheater).  However, more detailed information about the university's history, size, and other features is not available from the provided text.
+
+INFO:root:Session ID: string, User Query: tell me astu, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Adama Science and Technology University (ASTU) is a public, federal university located in Adama (Nazret), Oromia, Ethiopia.  Founded in 1993 as Nazareth Technical College, it underwent several name and status changes before becoming ASTU in 2011.  Its primary focus is on science, engineering, and technology.
+
+ASTU's mission is to produce highly qualified graduates in STEM fields, conduct research relevant to Ethiopia's development, provide community service and technology transfer, and become a center of excellence in applied science and technology education and research.  The university offers undergraduate (BSc, B.Tech) and postgraduate (MSc, M.Tech, PhD) programs.  It likely has several research centers focusing on areas such as renewable energy, materials science, information and communications technology (ICT), and manufacturing.
+
+The university provides student support services, including processes for course waivers, double majors, and handling failed courses.  It has at least two libraries (a central library and an engineering library, and possibly another focusing on applied natural sciences, social sciences, and humanities), a healthcare clinic, and student social spaces such as the ASTU Anfi (Amphitheater).  However, more detailed information about the university's history, size, and other features is not available from the provided text.
+
+INFO:root:Session ID: string, User Query: astu, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Adama Science and Technology University (ASTU) is a public, federal university located in Adama (Nazret), Oromia, Ethiopia.  Founded in 1993 as Nazareth Technical College, it evolved through several name and status changes before becoming ASTU in 2011.  Its primary focus is on science, engineering, and technology.
+
+ASTU's mission is to produce highly qualified graduates in STEM fields, conduct research relevant to Ethiopia's development, provide community service and technology transfer, and become a center of excellence in applied science and technology education and research.  The university offers undergraduate (BSc, B.Tech) and postgraduate (MSc, M.Tech, PhD) programs.  It likely has several research centers focusing on areas such as renewable energy, materials science, information and communications technology (ICT), and manufacturing.
+
+The university provides student support services, including processes for course waivers, double majors, and handling failed courses.  It has at least two libraries (a central library and an engineering library, and possibly another focusing on applied natural sciences, social sciences, and humanities), a healthcare clinic, and student social spaces such as the ASTU Anfi (Amphitheater).  However, more detailed information about the university's history, size, and other features is not available from the provided text.
+
+INFO:root:Session ID: string, User Query: cse department courses, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Based on the provided text, required courses for the Computer Science and Engineering (CSE) major at ASTU typically include:
+
+* Data structures
+* Discrete mathematics
+* Algorithms
+* Object-oriented programming
+* Programming languages
+* Fundamentals of electrical engineering
+* Operating systems
+* Computer networks
+* Database systems
+
+In addition to these required courses, students can choose major elective courses in areas like:
+
+* Artificial intelligence
+* Machine learning
+* Cybersecurity
+* Distributed systems
+* Computer graphics
+* Mobile computing
+
+The text also mentions general unrestricted electives, allowing students to broaden their education with courses from the natural sciences and other engineering disciplines.  However, specific course titles for these electives are not provided.
+
+INFO:root:Session ID: string, User Query: so what kind of person should study cse, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Based on the provided text, a person who enjoys studying fundamental science and applying engineering concepts to both hardware and software systems would be a good fit for a Computer Science and Engineering (CSE) program.  Someone interested in the software lifecycle, from requirements engineering to maintenance and UX/UI design, and who thrives in collaborative project-based learning environments would also be well-suited.  A strong interest in at least one area of specialization like AI, machine learning, cybersecurity, or others mentioned in the electives list would be beneficial.  Finally, a willingness to take courses in related fields like electrical engineering and the natural sciences would enhance the overall educational experience.
+
+INFO:root:Session ID: string, User Query: i got applied maths one f so can i join cse department, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't state whether a failing grade in Applied Math I would prevent admission to the CSE department.  You need to contact the CSE department or the admissions office at Adama Science and Technology University (ASTU) directly to determine their specific admission requirements and whether an 'F' in Applied Math I would disqualify you.  They can tell you if there's a possibility of retaking the course or other options available to you.
+
+INFO:root:Session ID: string, User Query: but applied maths one is pre requist for 2, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't explicitly state that Applied Maths I is a prerequisite for Applied Maths II, but it strongly implies it.  The fact that failing Applied Maths I would prevent graduation (unless the course can be repeated) suggests that it's a necessary foundation for subsequent courses, including Applied Maths II.  To be certain, you should check the course catalog or contact the relevant department at ASTU.
+
+INFO:root:Session ID: string, User Query: applied maths 1 is prerequist for 2, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't explicitly state that Applied Maths I is a prerequisite for Applied Maths II, but it strongly implies it.  The fact that failing Applied Maths I would prevent graduation (unless the course can be repeated) suggests that it's a necessary foundation for subsequent courses, including Applied Maths II.  To be certain, you should check the course catalog or contact the relevant department at ASTU.
+
+INFO:root:Session ID: string, User Query: applied maths 1 is prerequist for 2, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't explicitly state that Applied Maths I is a prerequisite for Applied Maths II, but it strongly implies it.  The fact that failing Applied Maths I would prevent graduation (unless the course can be repeated) suggests that it's a necessary foundation for subsequent courses, including Applied Maths II.  To be certain, you should check the course catalog or contact the relevant department at ASTU.
+
+INFO:root:Session ID: string, User Query: applied maths 1 is prerequist for 2, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't explicitly state that Applied Maths I is a prerequisite for Applied Maths II, but it strongly implies it.  The fact that failing Applied Maths I would prevent graduation (unless the course can be repeated) suggests that it's a necessary foundation for subsequent courses, including Applied Maths II.  To be certain, you should check the course catalog or contact the relevant department at ASTU.
+
+INFO:root:Session ID: string, User Query: applied maths 1 is prerequist for 2, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't explicitly state that Applied Maths I is a prerequisite for Applied Maths II. However, it strongly implies it.  Failing Applied Maths I would prevent graduation (unless the course can be repeated), suggesting it's a necessary foundation for subsequent courses, including Applied Maths II.  To be certain, you should check the course catalog or contact the relevant department at ASTU.
+
+INFO:root:Session ID: string, User Query: applied maths 1 is prerequist for 2, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't explicitly state that Applied Maths I is a prerequisite for Applied Maths II. However, it strongly implies it.  Failing Applied Maths I would prevent graduation (unless the course can be repeated), suggesting it's a necessary foundation for subsequent courses, including Applied Maths II.  To be certain, you should check the course catalog or contact the relevant department at ASTU.
+
+INFO:root:Session ID: string, User Query: applied maths 1 is prerequist for 2, Model: gemini-1.5-flash
+WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+WARNING:google.auth._default:Authentication failed using Compute Engine authentication due to unavailable metadata server.
+INFO:root:Session ID: string, User Query: applied maths 1 is prerequist for 2, Model: gemini-1.5-flash
+WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+WARNING:google.auth._default:Authentication failed using Compute Engine authentication due to unavailable metadata server.
+INFO:root:Session ID: string, User Query: applied maths 1 is prerequist for 2, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't explicitly state that Applied Maths I is a prerequisite for Applied Maths II. However, it strongly implies it. Failing Applied Maths I would prevent graduation (unless the course can be repeated), suggesting it's a necessary foundation for subsequent courses, including Applied Maths II. To be certain, you should check the course catalog or contact the relevant department at ASTU.
+
+INFO:root:Session ID: string, User Query: math, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: Based on the provided text, the mathematics courses at ASTU are foundational for many programs, especially engineering.  The core mathematics sequence includes Calculus, Linear Algebra, Differential Equations, Probability and Statistics, and Numerical Analysis.  Students also have opportunities to take specialized mathematics courses depending on their chosen major.  For example, Applied Mathematics I and II are explicitly mentioned as prerequisites for further mathematics courses and as co-requisites or prerequisites for some engineering courses.  The curriculum emphasizes strong analytical and problem-solving skills and proficiency in relevant programming languages.
+
+INFO:root:Session ID: string, User Query: is appliied math 1 prerequist for 2, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't explicitly list Applied Math I as a prerequisite for Applied Math II. However, it strongly implies this relationship.  Failing Applied Math I prevents graduation (unless the course is repeated), indicating it's foundational for subsequent courses, including Applied Math II.  To confirm, check the ASTU course catalog or contact the Applied Mathematics department directly.
+
+INFO:root:Session ID: string, User Query: is appliied math 1 prerequist for 2, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't explicitly state that Applied Math I is a prerequisite for Applied Math II. However, it strongly implies this relationship. Failing Applied Math I prevents graduation (unless the course is repeated), indicating it's foundational for subsequent courses, including Applied Math II. To confirm, check the ASTU course catalog or contact the Applied Mathematics department directly.
+
+INFO:root:Session ID: string, User Query: is appliied math 1 prerequist for 2, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't explicitly state that Applied Math I is a prerequisite for Applied Math II. However, it strongly implies this relationship. Failing Applied Math I prevents graduation (unless the course is repeated), indicating it's foundational for subsequent courses, including Applied Math II. To confirm, check the ASTU course catalog or contact the Applied Mathematics department directly.
+
+INFO:root:Session ID: string, User Query: is appliied math 1 prerequist for 2, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't explicitly state that Applied Math I is a prerequisite for Applied Math II.  However, it strongly implies this relationship.  Failing Applied Math I prevents graduation (unless the course is repeated), indicating it's foundational for subsequent courses, including Applied Math II. To confirm, check the ASTU course catalog or contact the Applied Mathematics department directly.
+
+INFO:root:Session ID: string, User Query: is appliied math 1 prerequist for 2, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't explicitly list Applied Math I as a prerequisite for Applied Math II. However, it strongly implies this relationship. Failing Applied Math I prevents graduation (unless the course is repeated), indicating it's foundational for subsequent courses, including Applied Math II.  To confirm, check the ASTU course catalog or contact the Applied Mathematics department directly.
+
+INFO:root:Session ID: string, User Query: is appliied math 1 prerequist for 2, Model: gemini-1.5-flash
+INFO:root:Session ID: string, AI Response: The provided text doesn't explicitly list Applied Math I as a prerequisite for Applied Math II. However, it strongly implies this relationship. Failing Applied Math I prevents graduation (unless the course is repeated), indicating it's foundational for subsequent courses, including Applied Math II.  To confirm, check the ASTU course catalog or contact the Applied Mathematics department directly.
+
+ERROR:root:Error in /delete-doc: 404: No document found with file_id 11.
+ERROR:root:Error in /delete-doc: 404: No document found with file_id 11.
+INFO:root:Session ID: string, Query: Who are you?, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['School Code: SoEEC\nSchool Name: School of Electrical Engineering and Computing', 'School Code: SoMCM\nSchool Name: School of Mechanical, Chemical and Material Engineering', 'School Code: SoANS\nSchool Name: School of Applied Natural Sciences', 'A successful graduate of the PCE program will not only be globally competent but will also have an a', 'Notification and Enforcement of Probation:\nWhen a student is placed on probation, their Dean or a de']
+INFO:root:Session ID: string, Response: I'm the ASTU Student Assistance Bot, here to assist with your questions about ASTU and more!
+
+INFO:root:Session ID: string, Query: is applied math 1 prerequisit for 2, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['Students typically study core mathematical subjects like calculus, linear algebra, differential equa', 'Department Code: AMat\nDepartment Name: Applied Mathematics / Computational Mathematics\nDescription:\n', 'Year I, Semester II continues to build the foundation with another 19 credit hours and 32 ECTS credi', 'Application Process and Guidelines:\nThe application process for double major and minor programs will', 'Year II, Semester I shifts towards more specialized engineering subjects, totaling 18 credit hours a']
+INFO:root:Session ID: string, Response: The provided text doesn't explicitly state that Applied Math I is a prerequisite for Applied Math II. However, it strongly implies this relationship.  Failing Applied Math I prevents graduation (unless the course is repeated), indicating it's foundational for subsequent courses, including Applied Math II. To confirm, check the ASTU course catalog or contact the Applied Mathematics department directly.
+
+INFO:root:Session ID: string, Query: who made you, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ["The program aims to produce graduates who can contribute to Ethiopia's industrial development by wor", 'The curriculum typically covers architectural design studios (where students work on design projects', 'In the Electronics Engineering stream, students develop in-depth knowledge and skills in utilizing s', 'Every senior student is required to undertake a significant research or design project under the gui', 'A successful graduate of the PCE program will not only be globally competent but will also have an a']
+INFO:root:Session ID: string, Response: I was created by Feleke.
+
+INFO:root:Session ID: string, Query: can you tell me about him, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['Students in this stream typically undertake intensive coursework in core science subjects such as Ge', "(EPCE5308), with 2 lecture and 3 lab hours, requiring EPCE3201 (corrected from EPCE3204); or 'Introd", 'School Code: SoCEA\nSchool Name: School of Civil Engineering and Architecture', "The program aims to produce graduates who can contribute to Ethiopia's industrial development by wor", "Repeating Courses with 'D' Grade (Borderline Final Year Students):\nOnly students who are considered "]
+INFO:root:Session ID: string, Response: I don't have any information about Feleke beyond the fact that he created me.  My knowledge is limited to the information provided in the text and our conversation history.  I'm sorry I can't provide more details about him.
+
+INFO:root:Session ID: string, Query: you love him, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['Semester Load Adjustments:\nStudents wishing to take a course load that is less than the required min', 'Consequences of Invalid Reasons:\nIf the School Managing Council (SMC) determines that the student di', 'Topic: Addressing \'Course Allergic\' Situations (Repeated Failure in a Course)\n\nA "course allergic" s', "Handling of 'F' Grade:\nA student who scores an 'F' in a course must repeat that course.\n\nHandling of", 'Re-admission of Students in Good Academic Standing (Voluntary Withdrawal):\nA student who discontinue']
+INFO:root:Session ID: string, Response: I cannot answer that question.  As an AI, I do not have feelings or personal opinions, including love.  My purpose is to provide information and assistance to students.
+
+INFO:root:Session ID: string, Query: you love him, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['Students are guided to pursue their interests in computer science and engineering by studying fundam', 'the complex industrial systems that produce these and myriads of other essential products. Key areas', 'Students typically study core mathematical subjects like calculus, linear algebra, differential equa', "The program aims to produce graduates who can contribute to Ethiopia's industrial development by wor", 'Department Code: AMat\nDepartment Name: Applied Mathematics / Computational Mathematics\nDescription:\n']
+INFO:root:Session ID: string, Response: I cannot answer that question.  As an AI, I do not have feelings or personal opinions, including love.  My purpose is to provide information and assistance to students.
+
+INFO:root:Session ID: string, Query: you love feleke, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['Students are guided to pursue their interests in computer science and engineering by studying fundam', 'the complex industrial systems that produce these and myriads of other essential products. Key areas', "The program aims to produce graduates who can contribute to Ethiopia's industrial development by wor", 'Students typically study core mathematical subjects like calculus, linear algebra, differential equa', 'The courses within our degree program incorporate both hardware and relevant software technologies, ']
+INFO:root:Session ID: string, Response: I cannot answer that question.  As an AI, I do not have feelings or personal opinions, including love. My purpose is to provide information and assistance to students.
+
+INFO:root:Session ID: string, Query: who made you, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['School Code: SoANS\nSchool Name: School of Applied Natural Sciences', 'School Code: SoEEC\nSchool Name: School of Electrical Engineering and Computing', 'School Code: SoMCM\nSchool Name: School of Mechanical, Chemical and Material Engineering', "The program aims to produce graduates who can contribute to Ethiopia's industrial development by wor", 'School Code: SoCEA\nSchool Name: School of Civil Engineering and Architecture']
+INFO:root:Session ID: string, Response: I was created by Feleke.
+
+INFO:root:Session ID: string, Query: who made you, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['School Code: SoANS\nSchool Name: School of Applied Natural Sciences', 'School Code: SoEEC\nSchool Name: School of Electrical Engineering and Computing', 'School Code: SoMCM\nSchool Name: School of Mechanical, Chemical and Material Engineering', "The program aims to produce graduates who can contribute to Ethiopia's industrial development by wor", 'School Code: SoCEA\nSchool Name: School of Civil Engineering and Architecture']
+INFO:root:Session ID: string, Response: I was created by Feleke.
+
+INFO:root:Session ID: string, Query: who developed you, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['School Code: SoANS\nSchool Name: School of Applied Natural Sciences', 'School Code: SoEEC\nSchool Name: School of Electrical Engineering and Computing', 'School Code: SoMCM\nSchool Name: School of Mechanical, Chemical and Material Engineering', "The program aims to produce graduates who can contribute to Ethiopia's industrial development by wor", 'School Code: SoCEA\nSchool Name: School of Civil Engineering and Architecture']
+INFO:root:Session ID: string, Response: I was created by Feleke.
+
+INFO:root:Session ID: string, Query: who developed you, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['School Code: SoANS\nSchool Name: School of Applied Natural Sciences', 'School Code: SoEEC\nSchool Name: School of Electrical Engineering and Computing', 'School Code: SoMCM\nSchool Name: School of Mechanical, Chemical and Material Engineering', "The program aims to produce graduates who can contribute to Ethiopia's industrial development by wor", 'School Code: SoCEA\nSchool Name: School of Civil Engineering and Architecture']
+INFO:root:Session ID: string, Response: I was created by Feleke.
+
+INFO:root:Session ID: string, Query: tell me about astu am going to join it this year, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'Name: Main University Gate (Entrance) \nDescription:\nThe Main University Gate also called Geda serves', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', 'Department Code: MSE\nDepartment Name: Materials Science and Engineering Program\nDescription:\nThe Mat']
+INFO:root:Session ID: string, Response: Exciting news about joining Adama Science and Technology University (ASTU) this year!  ASTU, located in Adama, Oromia, Ethiopia, is a public university focusing on science, engineering, and technology.  Founded in 1993, it's grown significantly since its beginnings as Nazareth Technical College.
+
+Here's what you should know:
+
+* **Academic Focus:** ASTU excels in STEM fields. You'll find programs in engineering (including Computer Science and Engineering), applied natural sciences, social sciences, and humanities.  They offer undergraduate (BSc, B.Tech) and postgraduate (MSc, M.Tech, PhD) degrees.  Double majors are possible, allowing you to combine majors from different programs.
+
+* **Resources:** The university boasts at least two libraries – a central and engineering library, plus another likely focused on applied sciences, social sciences, and humanities.  These provide access to books, journals, e-resources, study spaces, computers, and research assistance.  There's also an on-campus health clinic for your well-being.  Research opportunities are available through the various research and innovation centers.
+
+* **Student Life:**  The ASTU Anfi (Amphitheater) is a great place to relax, socialize, and study with friends.  The university has support systems in place for course waivers (under specific circumstances), handling failed courses, and navigating other academic challenges.  The School Managing Council (SMC) plays a key role in student academic matters.
+
+* **Key Things to Remember:**  You'll need to meet specific credit requirements for your chosen program and any minors.  There are also minimum CGPA requirements for graduation.  Failing a course, especially a core or prerequisite course, could affect your ability to graduate on time.
+
+
+I hope this overview is helpful!  Do you have any specific questions about programs, admission, student life, or other aspects of ASTU that you'd like me to address?  I'm happy to help you prepare for your exciting new chapter!
+
+INFO:root:Session ID: string, Query: tell me about astu am going to join it this year, Model: gemini-1.5-flash
+INFO:root:Retrieved 2 docs: ['Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'Name: Main University Gate (Entrance) \nDescription:\nThe Main University Gate also called Geda serves']
+INFO:root:Session ID: string, Response: That's fantastic news!  Joining Adama Science and Technology University (ASTU) this year is a great decision. ASTU, located in Adama, Oromia, Ethiopia, is a public university specializing in science, engineering, and technology.  Established in 1993, it's grown significantly from its origins as Nazareth Technical College.
+
+Here's a summary of what you should know about ASTU:
+
+**Academics:** ASTU excels in STEM fields, offering programs in engineering (including Computer Science and Engineering), applied natural sciences, social sciences, and humanities.  They provide undergraduate (BSc, B.Tech) and postgraduate (MSc, M.Tech, PhD) degrees.  A unique feature is the possibility of double majoring, allowing you to combine majors from different programs.
+
+**Resources:**  The university boasts at least two libraries—a central library and an engineering library, with another likely focusing on applied sciences, social sciences, and humanities. These libraries offer access to books, journals, electronic resources, study spaces, computers, and research assistance.  Your well-being is supported by an on-campus health clinic.  Research opportunities are abundant through the various research and innovation centers.
+
+**Student Life:** The ASTU Anfi (Amphitheater) provides a relaxing space for socializing and studying with peers.  The university offers support systems for course waivers (under specific conditions), handling failed courses, and navigating academic challenges.  The School Managing Council (SMC) plays a vital role in student academic matters.
+
+**Important Considerations:** You'll need to meet specific credit requirements for your chosen program and any minors.  Minimum CGPA requirements for graduation are also in place.  Failing a course, especially a core or prerequisite course, could impact your graduation timeline.
+
+I hope this overview is helpful!  Do you have any specific questions about programs, admission, student life, or other aspects of ASTU? I'm here to help you prepare for this exciting new chapter!
+
+INFO:root:Session ID: string, Query: tell me about astu am going to join it this year, Model: gemini-1.5-flash
+INFO:root:Retrieved 2 docs: ['Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'Name: Main University Gate (Entrance) \nDescription:\nThe Main University Gate also called Geda serves']
+INFO:root:Session ID: string, Response: That's fantastic news!  Joining Adama Science and Technology University (ASTU) this year is a great decision. ASTU, located in Adama, Oromia, Ethiopia, is a public university specializing in science, engineering, and technology.  Established in 1993, it's grown significantly from its origins as Nazareth Technical College.
+
+Here's a summary of what you should know about ASTU:
+
+**Academics:** ASTU excels in STEM fields, offering programs in engineering (including Computer Science and Engineering), applied natural sciences, social sciences, and humanities.  They provide undergraduate (BSc, B.Tech) and postgraduate (MSc, M.Tech, PhD) degrees.  A unique feature is the possibility of double majoring, allowing you to combine majors from different programs.
+
+**Resources:**  The university boasts at least two libraries—a central library and an engineering library, with another likely focusing on applied sciences, social sciences, and humanities. These libraries offer access to books, journals, electronic resources, study spaces, computers, and research assistance.  Your well-being is supported by an on-campus health clinic.  Research opportunities are abundant through the various research and innovation centers.
+
+**Student Life:** The ASTU Anfi (Amphitheater) provides a relaxing space for socializing and studying with peers.  The university offers support systems for course waivers (under specific conditions), handling failed courses, and navigating academic challenges.  The School Managing Council (SMC) plays a vital role in student academic matters.
+
+**Important Considerations:** You'll need to meet specific credit requirements for your chosen program and any minors.  Minimum CGPA requirements for graduation are also in place.  Failing a course, especially a core or prerequisite course, could impact your graduation timeline.
+
+I hope this overview is helpful!  Do you have any specific questions about programs, admission, student life, or other aspects of ASTU? I'm here to help you prepare for this exciting new chapter!
+
+INFO:root:Session ID: string, Query: applied 1, Model: gemini-1.5-flash
+INFO:root:Retrieved 2 docs: ['Students typically study core mathematical subjects like calculus, linear algebra, differential equa', 'Department Code: AMat\nDepartment Name: Applied Mathematics / Computational Mathematics\nDescription:\n']
+INFO:root:Session ID: string, Response: Based on the provided text, Applied Maths I is strongly implied to be a prerequisite for Applied Maths II.  Failing Applied Maths I prevents graduation unless the course is repeated, indicating it's foundational for subsequent math courses. However, the course catalog or the Applied Mathematics department at ASTU should be checked for absolute confirmation.
+
+INFO:root:Session ID: string, Query: aplied 1, Model: gemini-1.5-flash
+INFO:root:Retrieved 4 docs: ['Students typically study core mathematical subjects like calculus, linear algebra, differential equa', 'Department Code: AMat\nDepartment Name: Applied Mathematics / Computational Mathematics\nDescription:\n', 'Year I, Semester II continues to build the foundation with another 19 credit hours and 32 ECTS credi', 'Department Code: APhy\nDepartment Name: Applied Physics\nDescription:\nThe Applied Physics program at A']
+INFO:root:Session ID: string, Response: Yo!  You're asking about Applied Maths I, right?  The text doesn't explicitly say it's a *prerequisite* for Applied Maths II, but let's be real—it totally is!  Failing Applied Maths I blocks your graduation unless you retake it, which means it's foundational for the sequel.  Think of it like trying to binge-watch Season 2 of your favorite show without seeing Season 1—not gonna happen!  To be 100% sure, though, check the ASTU course catalog or hit up the Applied Maths department.  They'll give you the official word. Got more burning questions? Hit me up!
+
+INFO:root:Session ID: string, Query: aplied 1, Model: gemini-1.5-flash
+INFO:root:Retrieved 3 docs: ['Students typically study core mathematical subjects like calculus, linear algebra, differential equa', 'Department Code: AMat\nDepartment Name: Applied Mathematics / Computational Mathematics\nDescription:\n', 'Year I, Semester II continues to build the foundation with another 19 credit hours and 32 ECTS credi']
+INFO:root:Session ID: string, Response: Yo! You're asking about Applied Maths I, right?  The text doesn't explicitly say it's a *prerequisite* for Applied Maths II, but let's be real—it totally is! Failing Applied Maths I blocks your graduation unless you retake it, which means it's foundational for the sequel. Think of it like trying to binge-watch Season 2 of your favorite show without seeing Season 1—not gonna happen! To be 100% sure, though, check the ASTU course catalog or hit up the Applied Maths department. They'll give you the official word. Got more burning questions? Hit me up!
+
+INFO:root:Session ID: string, Query: applied 1, Model: gemini-1.5-flash
+INFO:root:Retrieved 3 docs: ['Students typically study core mathematical subjects like calculus, linear algebra, differential equa', 'Department Code: AMat\nDepartment Name: Applied Mathematics / Computational Mathematics\nDescription:\n', 'Year I, Semester II continues to build the foundation with another 19 credit hours and 32 ECTS credi']
+INFO:root:Session ID: string, Response: Yo! You're asking about Applied Maths I, right?  The provided text doesn't explicitly state it's a *prerequisite* for Applied Maths II, but let's be real—it totally is! Failing Applied Maths I blocks your graduation unless you retake it, which means it's foundational for the sequel. Think of it like trying to binge-watch Season 2 of your favorite show without seeing Season 1—not gonna happen! To be 100% sure, though, check the ASTU course catalog or hit up the Applied Maths department. They'll give you the official word. Got more burning questions? Hit me up!
+
+INFO:root:Session ID: string, Query: tell me about applied 1, Model: gemini-1.5-flash
+INFO:root:Retrieved 3 docs: ['Students typically study core mathematical subjects like calculus, linear algebra, differential equa', 'Department Code: AMat\nDepartment Name: Applied Mathematics / Computational Mathematics\nDescription:\n', 'Year I, Semester II continues to build the foundation with another 19 credit hours and 32 ECTS credi']
+INFO:root:Session ID: string, Response: Applied Maths I is a crucial foundational course at ASTU.  While not explicitly stated as a prerequisite for Applied Maths II in the provided text, it's strongly implied.  Failing Applied Maths I prevents graduation unless you retake and pass the course, making it essential for progressing in your studies.  Think of it as the bedrock upon which all subsequent mathematics courses are built. To be absolutely certain, check the ASTU course catalog or contact the Applied Mathematics department.  They'll have the official word on prerequisites.
+
