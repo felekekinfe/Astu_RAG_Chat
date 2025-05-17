@@ -6,7 +6,7 @@ from typing import List
 from langchain_core.documents import Document
 import os
 
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200, length_function=len)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=1024, chunk_overlap=200, length_function=len)
 embedding_function = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 FAISS_INDEX_PATH = "faiss_index/"
