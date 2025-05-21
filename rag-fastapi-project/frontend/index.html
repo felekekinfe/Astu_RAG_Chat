@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astu RAG Chat</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(145deg, #1e1e2f, #2a2a40);
+            color: #f5f5f5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            text-align: center;
+            color: #5ce1e6;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            text-shadow: 0 2px 8px rgba(92, 225, 230, 0.3);
+            animation: fadeIn 1s ease-in;
+        }
+        #chat-container {
+            flex-grow: 1;
+            border: 2px solid #5ce1e6;
+            border-radius: 20px;
+            padding: 20px;
+            height: 60vh;
+            overflow-y: auto;
+            background: rgba(30, 30, 47, 0.95);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+            transition: border-color 0.3s ease;
+            margin-bottom: 1.5rem;
+        }
+        #chat-container::-webkit-scrollbar {
+            width: 8px;
+        }
+        #chat-container::-webkit-scrollbar-thumb {
+            background: #5ce1e6;
+            border-radius: 10px;
+        }
+        #chat-container::-webkit-scrollbar-track {
+            background: #2a2a40;
+        }
+        #messages {
+            list-style: none;
+            padding: 0;
+        }
+        .message-wrapper {
+            display: flex;
+            margin: 20px 0;
+            align-items: flex-start;
+        }
+        .user-message-wrapper {
+            justify-content: flex-end;
+        }
+        .assistant-message-wrapper {
+            justify-content: flex-start;
+        }
+        .message {
+            position: relative;
+            padding: 12px 18px;
+            border-radius: 15px;
+            line-height: 1.5;
+            max-width: 60%;
+            word-break: break-word;
+            animation: slideIn 0.5s ease-out;
+        }
+        .user-message {
+            background: linear-gradient(90deg, #5ce1e6, #00c4b4);
+            color: #fff;
+            border-top-right-radius: 5px;
+            box-shadow: 0 4px 10px rgba(92, 225, 230, 0.3);
+        }
+        .user-message::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -10px;
+            width: 0;
+            height: 0;
+            border-top: 10px solid #5ce1e6;
+            border-left: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+        .assistant-message {
+            background: linear-gradient(90deg, #a855f7, #7e22ce);
+            color: #fff;
+            border-top-left-radius: 5px;
+            box-shadow: 0 4px 10px rgba(168, 85, 247, 0.3);
+        }
+        .assistant-message::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -10px;
+            width: 0;
+            height: 0;
+            border-top: 10px solid #a855f7;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+        .message .timestamp {
+            display: block;
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 5px;
+            text-align: right;
+        }
+        #input-form {
+            display: flex;
+            gap: 15px;
+            margin-top: 1rem;
+            position: relative;
+        }
+        #user-input {
+            flex-grow: 1;
+            padding: 12px 20px;
+            border: 2px solid #5ce1e6;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.05);
+            color: #f5f5f5;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease, background 0.3s ease;
+        }
+        #user-input:focus {
+            border-color: #a855f7;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        #input-form button {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            background: linear-gradient(90deg, #5ce1e6, #00c4b4);
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.2s ease, background 0.3s ease;
+        }
+        #input-form button:hover {
+            transform: scale(1.05);
+            background: linear-gradient(90deg, #00c4b4, #5ce1e6);
+        }
+        #chat-status {
+            color: #ff6b6b;
+            margin-top: 10px;
+            font-style: italic;
+            text-align: center;
+            animation: fadeIn 1s ease-in;
+        }
+        .loading-spinner {
+            display: none;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #5ce1e6;
+            border-top: 3px solid transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            position: absolute;
+            right: 70px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            #chat-container {
+                height: 50vh;
+            }
+            #user-input, #input-form button {
+                padding: 10px;
+                font-size: 0.9rem;
+            }
+            .message {
+                max-width: 75%;
+                padding: 10px 15px;
+            }
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            #chat-container {
+                height: 40vh;
+            }
+            #input-form {
+                flex-direction: column;
+                gap: 10px;
+            }
+            #user-input, #input-form button {
+                width: 100%;
+                padding: 12px;
+                font-size: 0.85rem;
+            }
+            .loading-spinner {
+                right: 20px;
+            }
+            .message {
+                max-width: 85%;
+            }
+            .user-message::after, .assistant-message::before {
+                border-top-width: 8px;
+                border-left-width: 8px;
+                border-right-width: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="chat-container" role="log" aria-live="polite">
+        <ul id="messages"></ul>
+    </div>
+    <form id="input-form">
+        <input 
+            type="text" 
+            id="user-input" 
+            placeholder="Type your question..." 
+            required 
+            aria-label="Enter your question"
+        >
+        <button type="submit" aria-label="Send message">Send</button>
+        <div class="loading-spinner" id="loading-spinner"></div>
+    </form>
+    <p id="chat-status" aria-live="assertive"></p>
+
+    <script>
+        let sessionId = null;
+        const apiBase = '/';
+
+        // Load sessionId from sessionStorage on page load
+        window.onload = () => {
+            sessionId = sessionStorage.getItem('sessionId');
+        };
+
+        // Handle form submission for chat
+        document.getElementById('input-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const input = document.getElementById('user-input').value.trim();
+            if (!input) return;
+
+            addMessage('user', input);
+            document.getElementById('user-input').value = '';
+            document.getElementById('chat-status').textContent = 'Loading...';
+            document.getElementById('loading-spinner').style.display = 'block';
+
+            try {
+                const response = await fetch(`${apiBase}chat`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        question: input,
+                        session_id: sessionId || '',
+                        model: 'gemini-1.5-flash'
+                    }),
+                });
+                const data = await response.json();
+
+                document.getElementById('chat-status').textContent = '';
+                document.getElementById('loading-spinner').style.display = 'none';
+                if (response.ok) {
+                    sessionId = data.session_id;
+                    sessionStorage.setItem('sessionId', sessionId);
+                    addMessage('assistant', data.answer);
+                } else {
+                    const errorDetail = data.detail ? JSON.stringify(data.detail) : 'Unknown error';
+                    addMessage('assistant', `Error: ${errorDetail}`);
+                }
+            } catch (error) {
+                document.getElementById('chat-status').textContent = 'Network error. Please try again.';
+                document.getElementById('loading-spinner').style.display = 'none';
+            }
+        });
+
+        // Add message to chat with current time
+        function addMessage(role, content) {
+            const messages = document.getElementById('messages');
+            const li = document.createElement('li');
+            li.className = `message-wrapper ${role}-message-wrapper`;
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${role}-message`;
+            messageDiv.textContent = content;
+
+            // Add current time as timestamp
+            const currentTime = new Date();
+            const timeString = currentTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+            const timestampSpan = document.createElement('span');
+            timestampSpan.className = 'timestamp';
+            timestampSpan.textContent = timeString;
+            messageDiv.appendChild(timestampSpan);
+
+            li.appendChild(messageDiv);
+            messages.appendChild(li);
+            messages.scrollTop = messages.scrollHeight;
+        }
+    </script>
+</body>
+</html>

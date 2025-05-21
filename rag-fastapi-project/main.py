@@ -7,10 +7,17 @@ import os
 import uuid
 import logging
 import shutil
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import HTMLResponse
 
+# Logging setup
 logging.basicConfig(filename='logs/api.log', level=logging.INFO)
 app = FastAPI()
 
+# Mount static files for the frontend
+app.mount("/static", StaticFiles(directory="frontend"), name="static")
+
+# Chat endpoint
 @app.post("/chat", response_model=QueryResponse)
 async def chat(query_input: QueryInput):
     session_id = query_input.session_id or str(uuid.uuid4())
@@ -33,6 +40,7 @@ async def chat(query_input: QueryInput):
         logging.error(f"Error in /chat: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Internal error: {str(e)}")
 
+# Upload document endpoint
 @app.post("/upload-doc")
 async def upload_and_index_document(file: UploadFile = File(...)):
     allowed_extensions = ['.pdf', '.docx', '.txt']
@@ -58,6 +66,7 @@ async def upload_and_index_document(file: UploadFile = File(...)):
         if os.path.exists(temp_file_path):
             os.remove(temp_file_path)
 
+# List documents endpoint
 @app.get("/list-docs", response_model=list[DocumentInfo])
 async def list_documents():
     try:
@@ -66,6 +75,7 @@ async def list_documents():
         logging.error(f"Error in /list-docs: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Internal error: {str(e)}")
 
+# Delete document endpoint
 @app.post("/delete-doc")
 async def delete_document(request: DeleteFileRequest):
     try:
@@ -82,3 +92,7 @@ async def delete_document(request: DeleteFileRequest):
     except Exception as e:
         logging.error(f"Error in /delete-doc: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Internal error: {str(e)}")
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
