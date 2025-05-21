@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astu RAG Chat</title>
+    <title>ASTU RAG Chat</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         * {
             box-sizing: border-box;
@@ -108,6 +109,24 @@
             border-top: 10px solid #a855f7;
             border-right: 10px solid transparent;
             border-bottom: 10px solid transparent;
+        }
+        /* Styling for Markdown-rendered content */
+        .assistant-message h1, .assistant-message h2, .assistant-message h3 {
+            color: #fff;
+            margin: 0.5em 0;
+        }
+        .assistant-message ul, .assistant-message ol {
+            margin: 0.5em 0;
+            padding-left: 1.5em;
+        }
+        .assistant-message li {
+            margin-bottom: 0.3em;
+        }
+        .assistant-message strong {
+            font-weight: bold;
+        }
+        .assistant-message p {
+            margin: 0.5em 0;
         }
         .message .timestamp {
             display: block;
@@ -232,7 +251,7 @@
     </style>
 </head>
 <body>
-    
+    <h1>ASTU RAG Chat</h1>
     <div id="chat-container" role="log" aria-live="polite">
         <ul id="messages"></ul>
     </div>
@@ -297,19 +316,24 @@
             }
         });
 
-        // Add message to chat with current time
+        // Add message to chat with current time, rendering Markdown for assistant messages
         function addMessage(role, content) {
             const messages = document.getElementById('messages');
             const li = document.createElement('li');
             li.className = `message-wrapper ${role}-message-wrapper`;
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${role}-message`;
-            messageDiv.textContent = content;
+
+            // Render Markdown for assistant messages, plain text for user messages
+            if (role === 'assistant') {
+                messageDiv.innerHTML = marked.parse(content);
+            } else {
+                messageDiv.textContent = content;
+            }
 
             // Add current time as timestamp
             const currentTime = new Date();
             const timeString = currentTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-
             const timestampSpan = document.createElement('span');
             timestampSpan.className = 'timestamp';
             timestampSpan.textContent = timeString;

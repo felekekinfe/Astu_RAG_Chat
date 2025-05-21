@@ -596,3 +596,311 @@ INFO:root:Session ID: 3b8dbe43-d1c3-478a-9698-94285b29e7f9, Query: can i tell me
 INFO:root:Retrieved 3 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou']
 INFO:root:Session ID: 3b8dbe43-d1c3-478a-9698-94285b29e7f9, Response: The ASTU CSE department's 5-year program builds progressively, culminating in a final year packed with capstone projects and specialized courses.  To graduate, you MUST complete courses like Compiler Design (CSEg5201), Senior Project I (CSEg5203), and a Major Elective IX (from Advanced Network, Real Time and Embedded Systems, or Introduction to Parallel and Distributed Processing).  Crucially, prerequisites MUST be met; failure to do so BLOCKS your progression. Year IV involves advanced topics and electives. Failing any course risks delaying graduation.  Want to explore specific courses, prerequisites, or potential roadblocks? Let's dive deeper!
 
+INFO:root:Session ID: 8ce10d5c-37cd-4767-8778-8b5955e17339, Query: hello, Model: gemini-1.5-flash
+ERROR:root:Error in /chat: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+INFO:root:Session ID: 8a506cf5-db33-495e-bf76-bf1d30be855a, Query: hi, Model: gemini-1.5-flash
+ERROR:root:Error in /chat: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+INFO:root:Session ID: 9f847885-1b24-4992-8df3-624e922ec1bf, Query: hi, Model: gemini-1.5-flash
+ERROR:root:Error in /chat: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+INFO:root:Session ID: 8997ec33-298c-4abc-a8cc-c1009e32e735, Query: hi, Model: gemini-1.5-flash
+ERROR:root:Error in /chat: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+INFO:root:Session ID: 98c56ad0-88ed-4069-b9e6-aba60380d147, Query: hi, Model: gemini-1.5-flash
+ERROR:root:Error in /chat: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+INFO:root:Session ID: 4f991d39-708e-4571-955a-5927db55b913, Query: hi, Model: gemini-1.5-flash
+ERROR:root:Error in /chat: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: hi, Model: gemini-1.5-flash
+INFO:root:Retrieved 3 docs: ['11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', "The Year IV Summer Semester features 'Industry Internship – II' (CSEg4200). This is another one also", '7. Course: Major Elective IX: Introduction to Parallel and Distributed Processing\n   Code: CSEg5303\n']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: Hey there!  I'm the ASTU Student Assistance Bot, your academic wingman, here to crush it faster than you ace a quiz! What's up?  Need some academic guidance at ASTU? Let's get to it!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: hi, Model: gemini-1.5-flash
+ERROR:root:Error in /chat: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: hi, Model: gemini-1.5-flash
+INFO:root:Retrieved 3 docs: ['Evaluation of Probation and Dismissal Policies:\nThe Quality Assurance and Relevance Committee of the', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', '3. Course: Discrete Mathematics for Computer Science\n   Code: CSEg2210\n   Prerequisite(s): Must comp']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: Hey there! I'm the ASTU Student Assistance Bot, your academic wingman, here to crush it faster than you ace a quiz! What's up? Need some academic guidance at ASTU? Let's get to it!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: how much time it takes, Model: gemini-1.5-flash
+INFO:root:Retrieved 3 docs: ['3. Rule: Dropping Out or Withdrawing\n   Description: Withdrawal requires advisor consultation and ap', 'Registration for Make-up Exam:\nA student allowed to take a make-up examination must apply and regist', 'Adding and Dropping Courses:\nStudents may add or drop courses after the normal registration period u']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: That's a bit vague!  To give you a precise answer, I need more context.  "How much time it takes" for what?  Are you asking about:
+
+* **Withdrawing from a course?** You have six weeks from registration to withdraw, but you'll need advisor approval and valid documentation.  Failure to meet these deadlines can seriously impact your academic standing.
+
+* **Registering for a make-up exam?**  For regular students, it's at least one month before the final exam. Graduating students have a shorter window, typically three weeks after the next semester begins.
+
+* **Adding or dropping a course after the registration period?** You have three weeks from the end of the normal registration period, but this requires specific circumstances and approvals.
+
+Please clarify your question so I can give you the precise timeframe you need.  Think of it like finding the perfect blend for your buna—the more detail you provide, the better the result!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: what is cse, Model: gemini-1.5-flash
+INFO:root:Retrieved 3 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: CSE stands for Computer Science and Engineering.  At ASTU, it's a five-year accredited program designed to equip you with a strong foundation in computing, progressing through increasingly specialized topics to prepare you for a successful career in the field.  The program culminates in senior projects and internships, giving you practical experience before graduation.  Is there anything specific about the CSE program you'd like to know?  Perhaps you're interested in course details, prerequisites, or the overall curriculum structure?  Let me know!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: how much time it takes, Model: gemini-1.5-flash
+INFO:root:Retrieved 3 docs: ["(CSEg5305), with 2 lecture and 3 lab hours, requiring CSEg3202; or 'Introduction to Parallel and Dis", "2 lecture and 3 lab hours, requiring EPCE3201 (corrected from EPCE3204); or 'Introduction to Natural", 'Year III, Semester I introduces advanced topics and the first major elective, totaling 19 credit hou']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: The question "how much time it takes" is too vague.  To answer accurately, I need specifics.  Are you asking about the time needed for:
+
+* **Completing a specific course?**  This depends on the course (e.g., CSEg5305 requires completion of CSEg3202).  Provide the course code for a precise estimate based on its credit hours and workload.
+
+* **Finishing the entire CSE program?** The CSE program at ASTU is a five-year program.
+
+* **Meeting deadlines for course registration, withdrawal, or make-up exams?**  Deadlines vary.  For withdrawals, you have six weeks from registration, but require advisor approval and valid documentation. Make-up exams have different deadlines for regular and graduating students. Adding or dropping courses after the registration period has a three-week window, subject to specific conditions.
+
+Please clarify your question with more details. The more information you provide, the more accurate and helpful my response will be. Think of it like brewing the perfect cup of buna – the more precise your instructions, the better the final product!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: who are you, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Probation Eligibility with Improving SGPA:\nA student who, for two consecutive recent semesters, scor', 'Scheduling and Content of Make-up Exam:\nA student permitted to sit for a make-up examination will no', "4. Rule: Make-up Examinations\n   Description: Make-up exams are for 'I' grades due to valid reasons ", 'Academic Warning:\nA student (second year and above) will be placed on academic warning if, at the en', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", 'Notification and Enforcement of Probation:\nWhen a student is placed on probation, their Dean or a de', 'Consequences of Invalid Reasons:\nIf the School Managing Council (SMC) determines that the student di']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: I’m the ASTU Student Assistance Bot, your academic navigator, built to help you excel at ASTU with speed and style!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: what kind of help can you provide, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['University Clearance Procedures:\nProper clearance procedures are mandatory for all students upon com', 'Student Enrollment:\nTypically enrolls thousands of students annually across undergraduate and postgr', 'Year I, Semester I commences the program with a total of 19 credit hours and 32 ECTS credits, focusi', 'The university allows students to earn academic credit for certain courses by passing an examination', '---\n\nTopic: Academic Options: Fast Track, Double Major, and Minor Fields of Study\n\nThe university pr', 'Key Programs Offered:\nUndergraduate (BSc, B.Tech)\nPostgraduate (MSc, M.Tech, PhD)\nFocus on STEM fiel', "2 lecture and 3 lab hours, requiring EPCE3201 (corrected from EPCE3204); or 'Introduction to Natural"]
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: As the ASTU Student Assistance Bot, I can help you with a variety of academic matters.  My expertise includes:
+
+* **Course information:**  I can provide details on course prerequisites, credit hours, scheduling, and overall program requirements.  Think of me as your personal course catalog expert!
+
+* **University regulations:** I'm well-versed in ASTU's policies on things like clearance procedures, deadlines for course registration, withdrawal, make-up exams, and academic probation. Navigating university bureaucracy? I've got you covered.
+
+* **Academic progression:** I can help you understand how your course choices impact your overall academic plan, including potential delays or roadblocks.  I can also help you explore options like double majors or minors.
+
+* **Time estimations:** While I need specific details, I can help estimate the time required for completing courses, the entire program, or meeting important deadlines.
+
+Essentially, I'm your go-to resource for navigating the academic landscape of ASTU.  Just ask!  The more specific your questions, the more precise and helpful my answers will be.  Let's work together to make your ASTU experience a success!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: give me cse 4th year first semister course, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', 'Chunk 1: Foundational Core Courses\nDescription: These Year I-II courses establish the mathematical, ', "CSEg3202. For Major Elective VII, students choose one 3 credit hour, 5 ECTS course from: 'Electrical", '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: Here are the courses for the CSE program's fourth year, first semester, based on the provided information:
+
+* **Microcomputer & Interfacing (CSEg4207):** 3 credit hours, requires CSEg3202.
+* **Formal Language & Automata Theory (CSEg4203):** 3 credit hours.
+* **Computer Systems Security (CSEg4205):** 3 credit hours.
+* **Operating Systems (CSEg4201):** 4 credit hours, requires CSEg3202.
+* **Major Elective IV:**  Choose one 3-credit-hour course:
+    * Introduction to Data Mining (CSEg4301): Requires CSEg2206.
+    * Introduction to Control Systems (PCEg4307): Requires CSEg2202.
+* **Major Elective V:** Choose one 3-credit-hour course from the options listed in the provided text.  (The options are not fully listed in the provided text).
+* **Major Elective VII:** Choose one 3-credit-hour course from the options listed in the provided text. (The options are not fully listed in the provided text).
+
+
+**Important Note:**  The complete list of options for Major Electives V and VII are not fully provided in the given text.  To get the complete list, consult the ASTU course catalog or your academic advisor.  Failing to meet prerequisites will prevent you from enrolling in the selected courses, potentially delaying your graduation.  Tackle these courses like you're sprinting to a well-deserved buna break!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', "2 lecture and 3 lab hours, requiring EPCE3201 (corrected from EPCE3204); or 'Introduction to Natural", '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s', '2. Rule: Academic Standing\n   Description: Good standing requires SGPA ≥ 1.75, CGPA ≥ 2.00. Warning ']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: The Adama Science and Technology University (ASTU) Computer Science and Engineering (CSE) department offers a five-year accredited program.  It's structured to build progressively from foundational computing knowledge to specialized and advanced topics. The curriculum culminates in senior projects and practical internships, providing students with real-world experience before graduation.  Specific course details, prerequisites, and the complete curriculum structure are available in the ASTU course catalog or from your academic advisor.  Remember, meeting prerequisites is crucial for timely graduation!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: give me cse 4th year first semister course, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', 'The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', "2. Rule: Graduation Failures\n   Description: Students failing due to 'F' may repeat courses; those w", 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: Based on the provided text, here are the CSE 4th-year, first-semester courses:
+
+* **Microcomputer & Interfacing (CSEg4207):** 3 credit hours, requires CSEg3202.
+* **Formal Language & Automata Theory (CSEg4203):** 3 credit hours.
+* **Computer Systems Security (CSEg4205):** 3 credit hours.
+* **Operating Systems (CSEg4201):** 4 credit hours, requires CSEg3202.
+* **Major Elective IV:** Choose ONE of the following 3-credit-hour courses:
+    * Introduction to Data Mining (CSEg4301): Requires CSEg2206.
+    * Introduction to Control Systems (PCEg4307): Requires CSEg2202.
+* **Major Elective V:**  The provided text does not list the options for this elective.  Consult the ASTU course catalog or your academic advisor for a complete list.
+* **Major Elective VII:** The provided text does not list the options for this elective. Consult the ASTU course catalog or your academic advisor for a complete list.
+
+
+**Crucial Note:**  Failure to complete prerequisites will block your registration for these courses, potentially delaying your graduation.  Make sure you're on top of your prerequisites!  Ace these courses like you're aiming for that perfect cup of Buna after a long study session!  Remember to consult your academic advisor or the ASTU course catalog for the complete list of electives.
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: about software engineering, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s', '9. Course: Major Elective X: Introduction to Blockchain\n   Code: CSEg5304\n   Prerequisite(s): Must c', '3. Course: Discrete Mathematics for Computer Science\n   Code: CSEg2210\n   Prerequisite(s): Must comp', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', '2. Course: Object Oriented Programming\n   Code: CSEg2202\n   Prerequisite(s): Must complete Introduct']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: The provided text focuses on the ASTU Computer Science and Engineering (CSE) program, which has significant overlap with software engineering.  To give you a precise answer about software engineering at ASTU, I need more specifics on what you'd like to know.  Are you interested in:
+
+* **Specific courses related to software engineering?**  Many CSE courses, such as Fundamentals of Programming (CSEg1104), Object-Oriented Programming (CSEg2202), and Design and Analysis of Algorithms (CSEg2208), directly contribute to software engineering skills.  I can provide details on prerequisites and course content if you'd like.
+
+* **Career paths after graduation?**  The CSE program at ASTU prepares graduates for various software engineering roles, including software developer, software architect, and database administrator.
+
+* **Specialization options within the CSE program?** The program allows for specialization through elective courses.  The provided text mentions several electives related to software development, such as mobile computing and data mining.
+
+* **The overall curriculum structure?** The CSE program progresses from foundational courses to more advanced and specialized topics over five years.
+
+Please clarify your question so I can provide a more focused and helpful response. Think of it like choosing the perfect spice for your wat—the more detail you give me, the better I can tailor my answer to your needs!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: who developed this bot, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', '7. Course: Major Elective IX: Introduction to Parallel and Distributed Processing\n   Code: CSEg5303\n', '9. Course: Major Elective X: Introduction to Blockchain\n   Code: CSEg5304\n   Prerequisite(s): Must c', 'The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', '2. Course: Distributed Systems\n   Code: CSEg4206\n   Prerequisite(s): Must complete Data Communicatio', "(CSEg5305), with 2 lecture and 3 lab hours, requiring CSEg3202; or 'Introduction to Parallel and Dis", '6. Course: Physical Fitness and Conditioning II\n   Code: HPEd1022\n   Prerequisite(s): Must complete ']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: Feleke, the mastermind behind my brilliance, crafted me to be your ultimate ASTU resource. Want to send them a virtual nod?
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: about software engineering, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s', '9. Course: Major Elective X: Introduction to Blockchain\n   Code: CSEg5304\n   Prerequisite(s): Must c', '3. Course: Discrete Mathematics for Computer Science\n   Code: CSEg2210\n   Prerequisite(s): Must comp', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', '2. Course: Object Oriented Programming\n   Code: CSEg2202\n   Prerequisite(s): Must complete Introduct']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: To provide you with helpful information about software engineering at ASTU, I need more specifics.  Are you interested in:
+
+* **Specific courses?** Many CSE courses directly relate to software engineering, such as Fundamentals of Programming (CSEg1104), Object-Oriented Programming (CSEg2202), and Design and Analysis of Algorithms (CSEg2208). I can detail prerequisites and content.
+
+* **Career paths?**  ASTU's CSE program prepares graduates for roles like software developer, architect, and database administrator.
+
+* **Specialization options?** Electives allow for specialization;  mobile computing and data mining are examples.
+
+* **Curriculum structure?**  The CSE program progresses from foundational to advanced topics over five years.
+
+Clarify your question for a precise answer.  The more detail you provide, the better I can assist you, like choosing the perfect spice for your wat!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: is it given if so what are their difference bn cse swe, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', "2 lecture and 3 lab hours, requiring EPCE3201 (corrected from EPCE3204); or 'Introduction to Natural", 'Year II, Semester II delves deeper into computer science and engineering, with 19 credit hours and 3']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: No, the provided text only describes the ASTU Computer Science and Engineering (CSE) program.  It doesn't offer a separate Software Engineering (SWE) program description or a direct comparison between the two.  The CSE program, however, covers many software engineering topics.  To understand differences, you'd need to consult ASTU's course catalog or an academic advisor.
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: hi, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', "2 lecture and 3 lab hours, requiring EPCE3201 (corrected from EPCE3204); or 'Introduction to Natural", 'Year II, Semester II delves deeper into computer science and engineering, with 19 credit hours and 3']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: Hey there! I'm the ASTU Student Assistance Bot, your academic wingman, here to crush it faster than you ace a quiz! What's up? Need some academic guidance at ASTU? Let's get to it!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: how much time it takes, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ["2 lecture and 3 lab hours, requiring EPCE3201 (corrected from EPCE3204); or 'Introduction to Natural", "(CSEg5305), with 2 lecture and 3 lab hours, requiring CSEg3202; or 'Introduction to Parallel and Dis", 'The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', 'Year II, Semester II delves deeper into computer science and engineering, with 19 credit hours and 3', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', '(PCEg4307), with 2 lecture and 3 lab hours, requiring CSEg2202. For Major Elective V, students choos']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: The question "how much time it takes" is too vague. To answer accurately, I need specifics. Are you asking about the time needed for:
+
+* **Completing a specific course?** This depends on the course and its credit hours and workload. Provide the course code for a precise estimate.  For example,  CSEg5305 requires completion of CSEg3202 beforehand.
+
+* **Finishing the entire CSE program?** The CSE program at ASTU is a five-year program.
+
+* **Meeting deadlines for course registration, withdrawal, or make-up exams?** Deadlines vary. For withdrawals, you have six weeks from registration but require advisor approval and valid documentation. Make-up exams have different deadlines for regular and graduating students. Adding or dropping courses after the registration period has a three-week window, subject to specific conditions.
+
+Please clarify your question with more details. The more information you provide, the more accurate and helpful my response will be. Think of it like brewing the perfect cup of buna – the more precise your instructions, the better the final product!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', 'Key Programs Offered:\nUndergraduate (BSc, B.Tech)\nPostgraduate (MSc, M.Tech, PhD)\nFocus on STEM fiel', 'Student Enrollment:\nTypically enrolls thousands of students annually across undergraduate and postgr', 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'Name: Main University Gate (Entrance) \nDescription:\nThe Main University Gate also called Geda serves']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: The Adama Science and Technology University (ASTU) Computer Science and Engineering (CSE) department offers a five-year accredited program.  It's structured to build progressively from foundational computing knowledge to specialized and advanced topics. The curriculum culminates in senior projects and practical internships, providing students with real-world experience before graduation.  Specific course details, prerequisites, and the complete curriculum structure are available in the ASTU course catalog or from your academic advisor. Remember, meeting prerequisites is crucial for timely graduation!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: about software engineering, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ["Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'Name: Main University Gate (Entrance) \nDescription:\nThe Main University Gate also called Geda serves', 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: The provided text focuses on ASTU's Computer Science and Engineering (CSE) program, which heavily overlaps with software engineering.  To accurately address your query, I need more detail. Are you interested in:
+
+* **Specific software engineering courses within the CSE program?** Many CSE courses like Fundamentals of Programming (CSEg1104), Object-Oriented Programming (CSEg2202), and Design and Analysis of Algorithms (CSEg2208) directly build software engineering skills. I can provide details on prerequisites and content.
+
+* **Career paths after graduating from the CSE program?**  Graduates are prepared for roles such as software developer, architect, or database administrator.
+
+* **Specialization options within CSE related to software engineering?**  Electives like Mobile Computing and Applications (CSEg3306) and Introduction to Data Mining (CSEg4301) offer specialization paths.
+
+* **The overall structure of the CSE curriculum?** The program progresses from foundational to advanced topics over five years.
+
+
+Please clarify your question for a more precise and helpful response.  The more details you provide, the better I can assist you—think of it like selecting the perfect spice blend for your wat!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', 'Key Programs Offered:\nUndergraduate (BSc, B.Tech)\nPostgraduate (MSc, M.Tech, PhD)\nFocus on STEM fiel', 'Student Enrollment:\nTypically enrolls thousands of students annually across undergraduate and postgr', 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'Name: Main University Gate (Entrance) \nDescription:\nThe Main University Gate also called Geda serves']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: The Adama Science and Technology University (ASTU) Computer Science and Engineering (CSE) department offers a five-year accredited program.  The program builds progressively from foundational computing knowledge to specialized and advanced topics.  It culminates in senior projects and internships, giving students practical, real-world experience before graduation. For specific course details, prerequisites, and the complete curriculum structure, consult the ASTU course catalog or your academic advisor.  Remember, meeting prerequisites is crucial for timely graduation!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'Name: Main University Gate (Entrance) \nDescription:\nThe Main University Gate also called Geda serves', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: The Adama Science and Technology University (ASTU) Computer Science and Engineering (CSE) department offers a five-year accredited program.  It's structured to build progressively from foundational computing knowledge to specialized and advanced topics. The curriculum culminates in senior projects and practical internships, providing students with real-world experience before graduation.  Specific course details, prerequisites, and the complete curriculum structure are available in the ASTU course catalog or from your academic advisor. Remember, meeting prerequisites is crucial for timely graduation!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: hey, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', "2. Rule: Graduation Failures\n   Description: Students failing due to 'F' may repeat courses; those w"]
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: Hey there! I'm the ASTU Student Assistance Bot, ready to assist you. What academic question can I help you with today?
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: hi, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', "2. Rule: Graduation Failures\n   Description: Students failing due to 'F' may repeat courses; those w"]
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: Hey there! I'm the ASTU Student Assistance Bot, ready to assist you. What academic question can I help you with today?
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: what department should i study, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", 'Name: Main University Gate (Entrance) \nDescription:\nThe Main University Gate also called Geda serves', 'Student Enrollment:\nTypically enrolls thousands of students annually across undergraduate and postgr']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: To recommend a department for you at ASTU, I need to know your interests and career goals.  ASTU excels in science, engineering, and technology.  Do you have a preference for a specific field within those areas (e.g., computer science, mechanical engineering, etc.)?  Knowing your strengths and aspirations will help me guide you towards the best fit, like selecting the perfect spice for your favorite Ethiopian dish!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: i love math, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', '(Note: Exact names of schools/departments and their structure can evolve. The above are typical and ', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', 'Key Programs Offered:\nUndergraduate (BSc, B.Tech)\nPostgraduate (MSc, M.Tech, PhD)\nFocus on STEM fiel']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: To advise you on the best department at ASTU given your love for math, I need more information.  ASTU offers various programs where mathematics plays a significant role.  Are you interested in pure mathematics, or would you prefer a field that applies mathematical principles, such as engineering, computer science, or statistics?  Knowing your career goals and whether you prefer theoretical or applied mathematics will help me suggest the most suitable department for you.  Think of it like choosing the perfect ingredients for a delicious Ethiopian stew – the more details you provide, the better the recipe!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: applied, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', 'ASTU Rules and Regulations \nChunk 1: Course Management and Adjustments\nDescription: These rules gove', '(Note: Exact names of schools/departments and their structure can evolve. The above are typical and ']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: The provided text mentions Adama Science and Technology University (ASTU) has a strong focus on applied science and technology in its mission and programs.  There's also mention of an "Applied Sciences Library," suggesting a significant emphasis on applied learning and research.  To give you more specific information about applied programs, I need to know which field interests you.  For example, are you interested in applied mathematics, computer science, engineering, or another area?
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: what department should i study, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', '(Note: Exact names of schools/departments and their structure can evolve. The above are typical and ', 'Year I, Semester I commences the program with a total of 19 credit hours and 32 ECTS credits, focusi']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: To recommend a department at ASTU, I need your interests and career goals. ASTU excels in science, engineering, and technology. Do you prefer a specific field within those areas (e.g., computer science, mechanical engineering)?  Knowing your strengths and aspirations will help me guide you to the best fit!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: i love math, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', '(Note: Exact names of schools/departments and their structure can evolve. The above are typical and ', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', '3. Course: Discrete Mathematics for Computer Science\n   Code: CSEg2210\n   Prerequisite(s): Must comp']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: To recommend the best ASTU department for you, given your love of math, I need more specifics.  ASTU offers various programs where math is crucial. Do you prefer pure mathematics or applied math fields like engineering, computer science, or statistics?  Knowing your career goals and whether you prefer theoretical or applied math will help me suggest the most suitable department.  Think of it like choosing the perfect ingredients for a delicious Ethiopian stew—the more details you provide, the better the recipe!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: applied, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', '(Note: Exact names of schools/departments and their structure can evolve. The above are typical and ', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', 'ASTU Rules and Regulations \nChunk 1: Course Management and Adjustments\nDescription: These rules gove']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: To recommend a suitable department at ASTU based on your interest in applied fields, I need to know your specific area of interest.  ASTU's strength lies in applied science and technology.  Do you prefer applied mathematics, computer science, engineering, or another area?  Providing this detail will help me give you the best possible recommendation.
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: i also love computing, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', '3. Course: Discrete Mathematics for Computer Science\n   Code: CSEg2210\n   Prerequisite(s): Must comp', '(Note: Exact names of schools/departments and their structure can evolve. The above are typical and ', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", '7. Course: Major Elective IX: Introduction to Parallel and Distributed Processing\n   Code: CSEg5303\n', 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: Given your interest in both applied mathematics and computing, the Computer Science and Engineering (CSE) department at ASTU would be an excellent choice.  The CSE program integrates applied mathematics heavily into its curriculum, providing a strong foundation in both areas.  However, to confirm this is the best fit for you,  I recommend you explore the detailed curriculum on the ASTU website or speak with a CSE department advisor to understand if the specific courses and specializations align with your long-term goals.  Remember,  a well-informed decision is key to a successful academic journey!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: elec school, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', '(Note: Exact names of schools/departments and their structure can evolve. The above are typical and ', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'Key Programs Offered:\nUndergraduate (BSc, B.Tech)\nPostgraduate (MSc, M.Tech, PhD)\nFocus on STEM fiel', 'Name: Main University Gate (Entrance) \nDescription:\nThe Main University Gate also called Geda serves']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: To advise you on elective choices, I need to know which department and year you are in.  The provided text mentions elective courses within the Computer Science and Engineering (CSE) department, but doesn't list all options for each semester.  To find the complete list of electives available to you, please consult the ASTU course catalog or speak with your academic advisor.  They can help you choose electives that best align with your interests and career goals.
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: i mean electrical, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ["Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'Name: Main University Gate (Entrance) \nDescription:\nThe Main University Gate also called Geda serves', 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', 'Student Enrollment:\nTypically enrolls thousands of students annually across undergraduate and postgr']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: To recommend the best fit for you at ASTU, I need more information about your interests within electrical engineering.  ASTU likely offers various specializations within electrical engineering (e.g., power systems, electronics, communications).  Knowing your specific interests will help me guide you towards the most suitable path.  Think of it like choosing the perfect spice for your wat—the more details you provide, the better I can assist!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: i want to know about the school, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", 'Name: Main University Gate (Entrance) \nDescription:\nThe Main University Gate also called Geda serves', 'Student Enrollment:\nTypically enrolls thousands of students annually across undergraduate and postgr']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: To best assist you, I need clarification on what aspects of Adama Science and Technology University (ASTU) interest you.  Are you curious about specific departments, programs, courses, admission procedures, campus life, research opportunities, or something else?  Providing more detail will help me give you a precise and helpful answer.
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: about software engineering, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", '2. Course: Object Oriented Programming\n   Code: CSEg2202\n   Prerequisite(s): Must complete Introduct', 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: To give you helpful information on software engineering at ASTU, I need more specifics. Are you interested in:
+
+* **Specific courses?** Many CSE courses (like CSEg1104, CSEg2202, CSEg2208) directly relate to software engineering. I can detail prerequisites and content.
+
+* **Career paths after graduation?** ASTU's CSE program prepares graduates for roles like software developer, architect, and database administrator.
+
+* **Specialization options?** Electives allow specialization; mobile computing and data mining are examples.
+
+* **Curriculum structure?** The CSE program progresses from foundational to advanced topics over five years.
+
+Clarify your question for a precise answer.  The more detail, the better I can assist—like choosing the perfect spice for your wat!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: Specialization options, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', '9. Course: Major Elective X: Introduction to Blockchain\n   Code: CSEg5304\n   Prerequisite(s): Must c', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: The provided text mentions several specialization options within the Computer Science and Engineering (CSE) program at ASTU.  These options become available through elective courses taken in later years. Examples include specializations in UX (User Experience) through courses like Human Computer Interaction (CSEg4314), emerging technology tracks focusing on blockchain via Introduction to Blockchain (CSEg5304), automation specializations through Introduction to Robotics and Industrial Automation (EPCE5308), and AI specializations with Introduction to Natural Language Processing (CSEg5306).  To explore all available specializations, consult the ASTU course catalog or your academic advisor.  Remember, choosing electives strategically is crucial for achieving your desired specialization!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: hi, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving"]
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: Hey there! I'm the ASTU Student Assistance Bot, ready to assist you. What academic question can I help you with today?
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: about software engineering, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', '9. Course: Major Elective X: Introduction to Blockchain\n   Code: CSEg5304\n   Prerequisite(s): Must c', '4. Course: Advanced Programming\n   Code: CSEg3203\n   Prerequisite(s): Must complete Introduction to ', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: To provide you with helpful information about software engineering at ASTU, I need more specifics. Are you interested in:
+
+* **Specific courses?** Many CSE courses directly relate to software engineering, such as Fundamentals of Programming (CSEg1104), Object-Oriented Programming (CSEg2202), and Design and Analysis of Algorithms (CSEg2208). I can detail prerequisites and content.
+
+* **Career paths after graduation?** ASTU's CSE program prepares graduates for roles like software developer, architect, and database administrator.
+
+* **Specialization options?** Electives allow specialization; mobile computing and data mining are examples.
+
+* **Curriculum structure?** The CSE program progresses from foundational to advanced topics over five years.
+
+Clarify your question for a precise answer.  The more detail, the better I can assist—like choosing the perfect spice for your wat!
+
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: is it given if so what are their difference bn cse swe, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou']
+INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: No, the provided text only describes the ASTU Computer Science and Engineering (CSE) program.  It doesn't offer a separate Software Engineering (SWE) program description or a direct comparison between the two.  The CSE program, however, covers many software engineering topics. To understand the differences, you should consult ASTU's course catalog or an academic advisor.
+
