@@ -12,3 +12,4 @@ SQLAlchemy==2.0.35
 psycopg2-binary==2.9.9
 huggingface-hub==0.30.2
 sentence-transformers==4.1.0
+python-multipart==0.0.20
