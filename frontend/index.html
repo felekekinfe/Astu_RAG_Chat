@@ -12,7 +12,7 @@
             padding: 0;
         }
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Inter', -apple-ass, BlinkMacassFont, 'Segoe UI', Roboto, sans-serif;
             max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
@@ -64,7 +64,7 @@
         .user-message-wrapper {
             justify-content: flex-end;
         }
-        .assistant-message-wrapper {
+        .ass-message-wrapper {
             justify-content: flex-start;
         }
         .message {
@@ -93,13 +93,13 @@
             border-left: 10px solid transparent;
             border-bottom: 10px solid transparent;
         }
-        .assistant-message {
+        .ass-message {
             background: linear-gradient(90deg, #a855f7, #7e22ce);
             color: #fff;
             border-top-left-radius: 5px;
             box-shadow: 0 4px 10px rgba(168, 85, 247, 0.3);
         }
-        .assistant-message::before {
+        .ass-message::before {
             content: '';
             position: absolute;
             top: 0;
@@ -111,21 +111,21 @@
             border-bottom: 10px solid transparent;
         }
         /* Styling for Markdown-rendered content */
-        .assistant-message h1, .assistant-message h2, .assistant-message h3 {
+        .ass-message h1, .ass-message h2, .ass-message h3 {
             color: #fff;
             margin: 0.5em 0;
         }
-        .assistant-message ul, .assistant-message ol {
+        .ass-message ul, .ass-message ol {
             margin: 0.5em 0;
             padding-left: 1.5em;
         }
-        .assistant-message li {
+        .ass-message li {
             margin-bottom: 0.3em;
         }
-        .assistant-message strong {
+        .ass-message strong {
             font-weight: bold;
         }
-        .assistant-message p {
+        .ass-message p {
             margin: 0.5em 0;
         }
         .message .timestamp {
@@ -242,7 +242,7 @@
             .message {
                 max-width: 85%;
             }
-            .user-message::after, .assistant-message::before {
+            .user-message::after, .ass-message::before {
                 border-top-width: 8px;
                 border-left-width: 8px;
                 border-right-width: 8px;
@@ -305,10 +305,10 @@
                 if (response.ok) {
                     sessionId = data.session_id;
                     sessionStorage.setItem('sessionId', sessionId);
-                    addMessage('assistant', data.answer);
+                    addMessage('ass', data.answer);
                 } else {
                     const errorDetail = data.detail ? JSON.stringify(data.detail) : 'Unknown error';
-                    addMessage('assistant', `Error: ${errorDetail}`);
+                    addMessage('ass', `Error: ${errorDetail}`);
                 }
             } catch (error) {
                 document.getElementById('chat-status').textContent = 'Network error. Please try again.';
@@ -316,7 +316,7 @@
             }
         });
 
-        // Add message to chat with current time, rendering Markdown for assistant messages
+        // Add message to chat with current time, rendering Markdown for ass messages
         function addMessage(role, content) {
             const messages = document.getElementById('messages');
             const li = document.createElement('li');
@@ -324,8 +324,8 @@
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${role}-message`;
 
-            // Render Markdown for assistant messages, plain text for user messages
-            if (role === 'assistant') {
+            // Render Markdown for ass messages, plain text for user messages
+            if (role === 'ass') {
                 messageDiv.innerHTML = marked.parse(content);
             } else {
                 messageDiv.textContent = content;

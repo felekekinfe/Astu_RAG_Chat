@@ -6,17 +6,18 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from faiss_utils import vectorstore
 import os
 
-retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
+retriever = vectorstore.as_retriever(search_kwargs={"k": 7})
 output_parser = StrOutputParser()
 
 def get_rag_chain(model="gemini-1.5-flash"):
     try:
         llm = ChatGoogleGenerativeAI(
             model=model,
-            google_api_key='AIzaSyCLLyLvtQC618kVZPfZnbHHVHUJfixT4Os'
+            google_api_key='AIzaSyCLLyLvtQC618kVZPfZnbHHVHUJfixT4Os',
+            temperature=0.7
         )
         contextualize_q_prompt = ChatPromptTemplate.from_messages([
-            ("human", """Given the chat history and the latest user question, reformulate the question into a clear, standalone query that captures the core intent. Do not answer or add extra context.
+            ("human", """Given the chat history and the latest user question, reformulate the question into a clear, standalone query that captures the core intent and short. Do not answer or add extra context.
 Chat History: {chat_history}
 Question: {input}"""),
         ])

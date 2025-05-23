@@ -8,7 +8,7 @@ import uuid
 import logging
 import shutil
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import HTMLResponse
+from fastapi.responses import FileResponse
 
 # Logging setup
 logging.basicConfig(filename='logs/api.log', level=logging.INFO)
@@ -17,6 +17,10 @@ app = FastAPI()
 # Mount static files for the frontend
 app.mount("/static", StaticFiles(directory="frontend"), name="static")
 
+@app.get('/')
+async def home():
+	return FileResponse('frontend/index.html')
+	
 # Chat endpoint
 @app.post("/chat", response_model=QueryResponse)
 async def chat(query_input: QueryInput):

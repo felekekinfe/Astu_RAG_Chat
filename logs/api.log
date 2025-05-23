@@ -904,3 +904,772 @@ INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Query: is it given i
 INFO:root:Retrieved 5 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou']
 INFO:root:Session ID: 922e5b0a-5a4c-46b9-83df-6802b3edc2c8, Response: No, the provided text only describes the ASTU Computer Science and Engineering (CSE) program.  It doesn't offer a separate Software Engineering (SWE) program description or a direct comparison between the two.  The CSE program, however, covers many software engineering topics. To understand the differences, you should consult ASTU's course catalog or an academic advisor.
 
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: hi, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', "The Year IV Summer Semester features 'Industry Internship – II' (CSEg4200). This is another one also", '7. Course: Major Elective IX: Introduction to Parallel and Distributed Processing\n   Code: CSEg5303\n', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', "Name: ASTU Anfi (Amphitheater)\nDescription:\nThe 'Anfi' likely refers to an outdoor amphitheater or a"]
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: Hi there! I'm the ASTU Student Assistance Bot, your academic navigator, built to help you excel at ASTU with speed and style!  What academic question can I help you with today?  Perhaps you're wondering about prerequisites, course scheduling, or graduation requirements? Let's get started!  Think of me as your personal guide to navigating the academic pathways of ASTU – even better than finding a good spot to study in the Anfi!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: what is anfi, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ["Name: ASTU Anfi (Amphitheater)\nDescription:\nThe 'Anfi' likely refers to an outdoor amphitheater or a", 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving"]
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: The Anfi is an outdoor amphitheater-like space at ASTU.  It's a popular spot for students to relax, socialize, study in groups, or attend small events. Think of it as a vibrant hub of campus life, perfect for a break between classes or a casual gathering with friends!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: hi, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ["Name: ASTU Anfi (Amphitheater)\nDescription:\nThe 'Anfi' likely refers to an outdoor amphitheater or a", 'Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving"]
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: Hi there! I'm the ASTU Student Assistance Bot, your academic navigator, built to help you excel at ASTU with speed and style!  What academic question can I help you with today?  Perhaps you're wondering about prerequisites, course scheduling, or graduation requirements? Let's get started!  Think of me as your personal guide to navigating the academic pathways of ASTU – even better than finding a good spot to study in the Anfi!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', "2 lecture and 3 lab hours, requiring EPCE3201 (corrected from EPCE3204); or 'Introduction to Natural"]
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I can certainly tell you about the Computer Science and Engineering (CSE) department at ASTU!  Based on the provided information, here's a summary of the program structure, focusing on the final two years:
+
+
+### ASTU CSE Department: Year IV & V Overview
+
+The CSE program is a rigorous five-year journey, culminating in a capstone project and internship.  Years IV and V build upon foundational knowledge, leading to specialization and practical application.
+
+**Year IV, Semester I:** This semester focuses on advanced CSE topics and electives.  Key courses include:
+
+*   **`CSEg4207` Microcomputer & Interfacing:** Requires `CSEg3202`.
+*   **`CSEg4203` Formal Language & Automata Theory:** No prerequisites.
+*   **`CSEg4205` Computer Systems Security:** No prerequisites.
+*   **`CSEg4201` Operating Systems:** Requires `CSEg3202`.
+*   **Major Elective IV:** Choice of `CSEg4301` (requires `CSEg2206`) or `PCEg4307` (requires `CSEg2202`).
+*   **Major Elective V:** Choice of `CSEg4303` (requires `EPCE3201`), or `CSEg5306` (requires `CSEg4308`).
+*   **Free Elective II:**  A 3-credit course of your choice.
+
+**Year V, Semester I:** This is your final semester!  It's all about capstone projects and specialized topics.  Courses include:
+
+*   **`CSEg5201` Compiler Design:** Requires `CSEg4203`.
+*   **`CSEg5203` Senior Project I:** Requires completion of senior-standing courses.
+*   **`SOSC5003` Entrepreneurship and Business Development:** No prerequisites.
+*   **`CSEg5205` Special Topics in CSE:** No prerequisites.
+*   **Major Elective IX:** Choice of `CSEg5307` (requires `CSEg3204`), `CSEg5305` (requires `CSEg3202`), or `CSEg5303` (requires `CSEg2208`).
+*   **Free Elective:** A 3-credit course of your choice.
+
+
+**Important Considerations:**
+
+*   **Prerequisites:**  Failing a prerequisite will block your registration for the subsequent course. This could significantly delay your graduation.  Make sure you pass all prerequisites!
+*   **Academic Advising:**  Consult your academic advisor regularly. They can help you plan your course selections and address any challenges you might face.
+*   **Course Schedules:** Always verify course schedules and prerequisites with the ASTU academic office, as information may change.
+
+
+This is a high-level overview.  For detailed course descriptions, credit hours, and specific requirements, refer to the official ASTU course catalog or your academic advisor.  Do you have any more specific questions about the CSE department or specific courses?  I'm ready to help you navigate your academic journey at ASTU!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', "2 lecture and 3 lab hours, requiring EPCE3201 (corrected from EPCE3204); or 'Introduction to Natural"]
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I can certainly tell you about the Computer Science and Engineering (CSE) department at ASTU!  Based on the provided information, here's a summary of the program structure, focusing on the final two years:
+
+### ASTU CSE Department: Year IV & V Overview
+
+The CSE program is a rigorous five-year journey, culminating in a capstone project and internship. Years IV and V build upon foundational knowledge, leading to specialization and practical application.
+
+**Year IV, Semester I:** This semester focuses on advanced CSE topics and electives. Key courses include:
+
+*   **`CSEg4207` Microcomputer & Interfacing:** Requires `CSEg3202`.
+*   **`CSEg4203` Formal Language & Automata Theory:** No prerequisites.
+*   **`CSEg4205` Computer Systems Security:** No prerequisites.
+*   **`CSEg4201` Operating Systems:** Requires `CSEg3202`.
+*   **Major Elective IV:** Choice of `CSEg4301` (requires `CSEg2206`) or `PCEg4307` (requires `CSEg2202`).
+*   **Major Elective V:** Choice of `CSEg4303` (requires `EPCE3201`), or `CSEg5306` (requires `CSEg4308`).
+*   **Free Elective II:** A 3-credit course of your choice.
+
+**Year V, Semester I:** This is your final semester! It's all about capstone projects and specialized topics. Courses include:
+
+*   **`CSEg5201` Compiler Design:** Requires `CSEg4203`.
+*   **`CSEg5203` Senior Project I:** Requires completion of senior-standing courses.
+*   **`SOSC5003` Entrepreneurship and Business Development:** No prerequisites.
+*   **`CSEg5205` Special Topics in CSE:** No prerequisites.
+*   **Major Elective IX:** Choice of `CSEg5307` (requires `CSEg3204`), `CSEg5305` (requires `CSEg3202`), or `CSEg5303` (requires `CSEg2208`).
+*   **Free Elective:** A 3-credit course of your choice.
+
+
+**Important Considerations:**
+
+*   **Prerequisites:** Failing a prerequisite will block your registration for the subsequent course. This could significantly delay your graduation. Make sure you pass all prerequisites!
+*   **Academic Advising:** Consult your academic advisor regularly. They can help you plan your course selections and address any challenges you might face.
+*   **Course Schedules:** Always verify course schedules and prerequisites with the ASTU academic office, as information may change.
+
+
+This is a high-level overview. For detailed course descriptions, credit hours, and specific requirements, refer to the official ASTU course catalog or your academic advisor. Do you have any more specific questions about the CSE department or specific courses? I'm ready to help you navigate your academic journey at ASTU!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['Name: Applied Sciences Library\nDescription:\nIn addition to the Central and Engineering Library, ASTU', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', "Name: Central and Engineering Library\nDescription:\nThis is ASTU's largest library, primarily serving", 'Name: University Health Clinic / Medical Center\nDescription:\nASTU provides on-campus primary healthc', "2. Rule: Graduation Failures\n   Description: Students failing due to 'F' may repeat courses; those w"]
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I can certainly tell you about the Computer Science and Engineering (CSE) department at ASTU!  Based on the provided information, here's a summary of the program structure, focusing on the final two years:
+
+### ASTU CSE Department: Year IV & V Overview
+
+The CSE program is a rigorous five-year journey, culminating in a capstone project and internship. Years IV and V build upon foundational knowledge, leading to specialization and practical application.
+
+**Year IV, Semester I:** This semester focuses on advanced CSE topics and electives. Key courses include:
+
+*   **`CSEg4207` Microcomputer & Interfacing:** Requires `CSEg3202`.
+*   **`CSEg4203` Formal Language & Automata Theory:** No prerequisites.
+*   **`CSEg4205` Computer Systems Security:** No prerequisites.
+*   **`CSEg4201` Operating Systems:** Requires `CSEg3202`.
+*   **Major Elective IV:** Choice of `CSEg4301` (requires `CSEg2206`) or `PCEg4307` (requires `CSEg2202`).
+*   **Major Elective V:** Choice of `CSEg4303` (requires `EPCE3201`), or `CSEg5306` (requires `CSEg4308`).
+*   **Free Elective II:**  A 3-credit course of your choice.
+
+**Year V, Semester I:** This is your final semester! It's all about capstone projects and specialized topics. Courses include:
+
+*   **`CSEg5201` Compiler Design:** Requires `CSEg4203`.
+*   **`CSEg5203` Senior Project I:** Requires completion of senior-standing courses.
+*   **`SOSC5003` Entrepreneurship and Business Development:** No prerequisites.
+*   **`CSEg5205` Special Topics in CSE:** No prerequisites.
+*   **Major Elective IX:** Choice of `CSEg5307` (requires `CSEg3204`), `CSEg5305` (requires `CSEg3202`), or `CSEg5303` (requires `CSEg2208`).
+*   **Free Elective:** A 3-credit course of your choice.
+
+
+**Important Considerations:**
+
+*   **Prerequisites:** Failing a prerequisite will block your registration for the subsequent course. This could significantly delay your graduation. Make sure you pass all prerequisites!
+*   **Academic Advising:** Consult your academic advisor regularly. They can help you plan your course selections and address any challenges you might face.
+*   **Course Schedules:** Always verify course schedules and prerequisites with the ASTU academic office, as information may change.
+
+
+This is a high-level overview. For detailed course descriptions, credit hours, and specific requirements, refer to the official ASTU course catalog or your academic advisor. Do you have any more specific questions about the CSE department or specific courses? I'm ready to help you navigate your academic journey at ASTU!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: first year courses, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: That's a great question!  Unfortunately, the provided text focuses on the final two years (Years IV and V) of the CSE program.  I don't have information about first-year courses. To get that information, I recommend:
+
+1. **Checking the ASTU Official Website:**  The ASTU website likely has a detailed course catalog or academic calendar outlining all courses, including those from the first year.
+2. **Contacting the CSE Department Directly:** Reach out to the CSE department at ASTU. They will have the most up-to-date and complete information on first-year course requirements.
+3. **Speaking with an Academic Advisor:** If you're already an ASTU student, your academic advisor can provide personalized guidance on course selection for your first year.
+
+
+Remember, planning your academic journey is crucial for success at ASTU.  Good luck, and let me know if you have any other questions about Years IV or V that I can answer!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: freshman, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: That's a great question!  Unfortunately, the information I have access to focuses on the final two years (Years IV and V) of the CSE program at ASTU. I don't have details on freshman-year courses.
+
+To find out about first-year courses, I suggest:
+
+1. **Checking the ASTU Official Website:** The ASTU website likely has a detailed course catalog or academic calendar that lists all courses, including those for freshmen.
+
+2. **Contacting the CSE Department Directly:** Reach out to the CSE department at ASTU. They will have the most up-to-date and complete information on first-year course requirements.
+
+3. **Speaking with an Academic Advisor:** If you are already an ASTU student, your academic advisor can provide personalized guidance on course selection for your first year.
+
+Planning your academic journey is key to success at ASTU!  Let me know if you have any other questions about Years IV or V that I can help with.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: 3rd year cse courses, Model: gemini-1.5-flash
+INFO:root:Retrieved 5 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', "2 lecture and 3 lab hours, requiring EPCE3201 (corrected from EPCE3204); or 'Introduction to Natural", 'Chunk 1: Foundational Core Courses\nDescription: These Year I-II courses establish the mathematical, ']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I apologize, but the provided text only details the fourth and fifth-year courses for the Computer Science and Engineering (CSE) program at ASTU.  Information on third-year courses is not available in this document.
+
+To find the necessary information about third-year CSE courses, I strongly recommend:
+
+1. **Consulting the Official ASTU Website:** The ASTU website should have a comprehensive course catalog or academic calendar that lists all courses, including those from the third year.
+
+2. **Contacting the CSE Department Directly:**  Reach out to the CSE department at ASTU. They possess the most current and complete information regarding third-year course requirements.
+
+3. **Meeting with an Academic Advisor:** If you are an ASTU student, your academic advisor can provide tailored guidance on course selection for your third year.  They can help you map out your academic path and ensure you are on track to graduate.
+
+
+Remember, proactive academic planning is essential for success at ASTU!  I'm here to help if you have any other questions about the fourth or fifth-year CSE curriculum.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 3 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', "2. Rule: Graduation Failures\n   Description: Students failing due to 'F' may repeat courses; those w"]
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I can certainly tell you about the Computer Science and Engineering (CSE) department at ASTU! Based on the provided information, here's a summary of the program structure, focusing on the final two years:
+
+### ASTU CSE Department: Year IV & V Overview
+
+The CSE program is a rigorous five-year journey, culminating in a capstone project and internship. Years IV and V build upon foundational knowledge, leading to specialization and practical application.
+
+**Year IV, Semester I:** This semester focuses on advanced CSE topics and electives. Key courses include:
+
+*   **`CSEg4207` Microcomputer & Interfacing:** Requires `CSEg3202`.
+*   **`CSEg4203` Formal Language & Automata Theory:** No prerequisites.
+*   **`CSEg4205` Computer Systems Security:** No prerequisites.
+*   **`CSEg4201` Operating Systems:** Requires `CSEg3202`.
+*   **Major Elective IV:** Choice of `CSEg4301` (requires `CSEg2206`) or `PCEg4307` (requires `CSEg2202`).
+*   **Major Elective V:** Choice of `CSEg4303` (requires `EPCE3201`), or `CSEg5306` (requires `CSEg4308`).
+*   **Free Elective II:** A 3-credit course of your choice.
+
+**Year V, Semester I:** This is your final semester! It's all about capstone projects and specialized topics. Courses include:
+
+*   **`CSEg5201` Compiler Design:** Requires `CSEg4203`.
+*   **`CSEg5203` Senior Project I:** Requires completion of senior-standing courses.
+*   **`SOSC5003` Entrepreneurship and Business Development:** No prerequisites.
+*   **`CSEg5205` Special Topics in CSE:** No prerequisites.
+*   **Major Elective IX:** Choice of `CSEg5307` (requires `CSEg3204`), `CSEg5305` (requires `CSEg3202`), or `CSEg5303` (requires `CSEg2208`).
+*   **Free Elective:** A 3-credit course of your choice.
+
+
+**Important Considerations:**
+
+*   **Prerequisites:** Failing a prerequisite will block your registration for the subsequent course. This could significantly delay your graduation. Make sure you pass all prerequisites!
+*   **Academic Advising:** Consult your academic advisor regularly. They can help you plan your course selections and address any challenges you might face.
+*   **Course Schedules:** Always verify course schedules and prerequisites with the ASTU academic office, as information may change.
+
+This is a high-level overview. For detailed course descriptions, credit hours, and specific requirements, refer to the official ASTU course catalog or your academic advisor. Do you have any more specific questions about the CSE department or specific courses? I'm ready to help you navigate your academic journey at ASTU!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', "2 lecture and 3 lab hours, requiring EPCE3201 (corrected from EPCE3204); or 'Introduction to Natural", '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s', '2. Rule: Academic Standing\n   Description: Good standing requires SGPA ≥ 1.75, CGPA ≥ 2.00. Warning ']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I can certainly tell you about the Computer Science and Engineering (CSE) department at ASTU! Based on the provided information, here's a summary of the program structure, focusing on the final two years:
+
+### ASTU CSE Department: Year IV & V Overview
+
+The CSE program is a rigorous five-year journey, culminating in a capstone project and internship. Years IV and V build upon foundational knowledge, leading to specialization and practical application.
+
+**Year IV, Semester I:** This semester focuses on advanced CSE topics and electives. Key courses include:
+
+*   **`CSEg4207` Microcomputer & Interfacing:** Requires `CSEg3202`.
+*   **`CSEg4203` Formal Language & Automata Theory:** No prerequisites.
+*   **`CSEg4205` Computer Systems Security:** No prerequisites.
+*   **`CSEg4201` Operating Systems:** Requires `CSEg3202`.
+*   **Major Elective IV:** Choice of `CSEg4301` (requires `CSEg2206`) or `PCEg4307` (requires `CSEg2202`).
+*   **Major Elective V:** Choice of `CSEg4303` (requires `EPCE3201`), or `CSEg5306` (requires `CSEg4308`).
+*   **Free Elective II:** A 3-credit course of your choice.
+
+**Year V, Semester I:** This is your final semester! It's all about capstone projects and specialized topics. Courses include:
+
+*   **`CSEg5201` Compiler Design:** Requires `CSEg4203`.
+*   **`CSEg5203` Senior Project I:** Requires completion of senior-standing courses.
+*   **`SOSC5003` Entrepreneurship and Business Development:** No prerequisites.
+*   **`CSEg5205` Special Topics in CSE:** No prerequisites.
+*   **Major Elective IX:** Choice of `CSEg5307` (requires `CSEg3204`), `CSEg5305` (requires `CSEg3202`), or `CSEg5303` (requires `CSEg2208`).
+*   **Free Elective:** A 3-credit course of your choice.
+
+
+**Important Considerations:**
+
+*   **Prerequisites:** Failing a prerequisite will block your registration for the subsequent course. This could significantly delay your graduation. Make sure you pass all prerequisites!
+*   **Academic Advising:** Consult your academic advisor regularly. They can help you plan your course selections and address any challenges you might face.
+*   **Course Schedules:** Always verify course schedules and prerequisites with the ASTU academic office, as information may change.
+
+This is a high-level overview. For detailed course descriptions, credit hours, and specific requirements, refer to the official ASTU course catalog or your academic advisor.  Do you have any more specific questions about the CSE department or specific courses? I'm ready to help you navigate your academic journey at ASTU!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: year I, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', "CSEg3202. For Major Elective VII, students choose one 3 credit hour, 5 ECTS course from: 'Electrical", 'Chunk 1: Foundational Core Courses\nDescription: These Year I-II courses establish the mathematical, ', '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I apologize, but the information I have access to focuses on the final two years (Years IV and V) of the CSE program at ASTU. I don't have details on first-year courses.
+
+To find out about first-year courses, I suggest:
+
+1. **Checking the ASTU Official Website:** The ASTU website likely has a detailed course catalog or academic calendar that lists all courses, including those for freshmen.
+
+2. **Contacting the CSE Department Directly:** Reach out to the CSE department at ASTU. They will have the most up-to-date and complete information on first-year course requirements.
+
+3. **Speaking with an Academic Advisor:** If you are already an ASTU student, your academic advisor can provide personalized guidance on course selection for your first year.
+
+Planning your academic journey is key to success at ASTU!  Let me know if you have any other questions about Years IV or V that I can help with.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: Year I, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', "CSEg3202. For Major Elective VII, students choose one 3 credit hour, 5 ECTS course from: 'Electrical", 'Chunk 1: Foundational Core Courses\nDescription: These Year I-II courses establish the mathematical, ', '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I apologize, but the information I have access to focuses on the final two years (Years IV and V) of the CSE program at ASTU.  I don't have details on Year I courses.
+
+To find out about Year I courses, I suggest:
+
+1. **Checking the ASTU Official Website:** The ASTU website likely has a detailed course catalog or academic calendar that lists all courses, including those for freshmen.
+
+2. **Contacting the CSE Department Directly:** Reach out to the CSE department at ASTU. They will have the most up-to-date and complete information on first-year course requirements.
+
+3. **Speaking with an Academic Advisor:** If you are already an ASTU student, your academic advisor can provide personalized guidance on course selection for your first year.
+
+Planning your academic journey is key to success at ASTU! Let me know if you have any other questions about Years IV or V that I can help with.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: Year II, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', "2. Rule: Graduation Failures\n   Description: Students failing due to 'F' may repeat courses; those w", '3. Course: Discrete Mathematics for Computer Science\n   Code: CSEg2210\n   Prerequisite(s): Must comp', '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', 'Chunk 1: Foundational Core Courses\nDescription: These Year I-II courses establish the mathematical, ']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I apologize, but the provided text focuses on the final two years (Years IV and V) of the CSE program at ASTU.  I don't have details on Year II courses.
+
+To find out about Year II courses, I suggest:
+
+1. **Checking the ASTU Official Website:** The ASTU website likely has a detailed course catalog or academic calendar that lists all courses, including those for sophomores.
+
+2. **Contacting the CSE Department Directly:** Reach out to the CSE department at ASTU. They will have the most up-to-date and complete information on second-year course requirements.
+
+3. **Speaking with an Academic Advisor:** If you are already an ASTU student, your academic advisor can provide personalized guidance on course selection for your second year.
+
+Planning your academic journey is key to success at ASTU! Let me know if you have any other questions about Years IV or V that I can help with.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: Year II, Semester II, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', 'Year IV, Semester II continues with advanced coursework and more electives, totaling 17 credit hours', 'Year III, Semester II continues with specialized courses and more electives, for a total of 19 credi', "2 lecture and 3 lab hours, requiring EPCE3201 (corrected from EPCE3204); or 'Introduction to Natural", 'Chunk 1: Foundational Core Courses\nDescription: These Year I-II courses establish the mathematical, ']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I apologize, but the information I have focuses on the final two years (Years IV and V) of the ASTU Computer Science and Engineering (CSE) program.  Details on Year II, Semester II courses are not included in the provided text.
+
+To obtain information about Year II, Semester II courses, I recommend:
+
+1. **Checking the ASTU Official Website:** The ASTU website likely has a detailed course catalog or academic calendar that lists all courses, including those from the second year.
+
+2. **Contacting the CSE Department Directly:** Reach out to the CSE department at ASTU. They will have the most up-to-date and complete information on second-year course requirements.
+
+3. **Speaking with an Academic Advisor:** If you are already an ASTU student, your academic advisor can provide personalized guidance on course selection for your second year.  They can help you create a plan that aligns with your academic goals and ensures you stay on track for graduation.
+
+Remember, proactive academic planning is essential for success at ASTU!  Let me know if you have any other questions about Years IV or V.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: year I, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', "2. Rule: Graduation Failures\n   Description: Students failing due to 'F' may repeat courses; those w", '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', '3. Course: Discrete Mathematics for Computer Science\n   Code: CSEg2210\n   Prerequisite(s): Must comp', '3. Course: Major Elective III: Mobile Computing and Applications\n   Code: CSEg3306\n   Prerequisite(s', 'Course Name: Physical Fitness and Conditioning II\nCourse Code: HPEd1022\nStatus: Pass/Fail\nPrerequisi', "CSEg3202. For Major Elective VII, students choose one 3 credit hour, 5 ECTS course from: 'Electrical"]
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I apologize, but the information I have access to focuses on the final two years (Years IV and V) of the CSE program at ASTU. I don't have details on first-year courses.
+
+To find out about Year I courses, I suggest:
+
+1. **Checking the ASTU Official Website:** The ASTU website likely has a detailed course catalog or academic calendar that lists all courses, including those for freshmen.
+
+2. **Contacting the CSE Department Directly:** Reach out to the CSE department at ASTU. They will have the most up-to-date and complete information on first-year course requirements.
+
+3. **Speaking with an Academic Advisor:** If you are already an ASTU student, your academic advisor can provide personalized guidance on course selection for your first year.
+
+Planning your academic journey is key to success at ASTU! Let me know if you have any other questions about Years IV or V that I can help with.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: year I, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', "2. Rule: Graduation Failures\n   Description: Students failing due to 'F' may repeat courses; those w", 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', "CSEg3202. For Major Elective VII, students choose one 3 credit hour, 5 ECTS course from: 'Electrical", 'Course Name: Physical Fitness and Conditioning II\nCourse Code: HPEd1022\nStatus: Pass/Fail\nPrerequisi']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I apologize, but the information I have access to focuses on the final two years (Years IV and V) of the CSE program at ASTU. I don't have details on first-year courses.
+
+To find out about Year I courses, I suggest:
+
+1. **Checking the ASTU Official Website:** The ASTU website likely has a detailed course catalog or academic calendar that lists all courses, including those for freshmen.
+
+2. **Contacting the CSE Department Directly:** Reach out to the CSE department at ASTU. They will have the most up-to-date and complete information on first-year course requirements.
+
+3. **Speaking with an Academic Advisor:** If you are already an ASTU student, your academic advisor can provide personalized guidance on course selection for your first year.
+
+Planning your academic journey is key to success at ASTU! Let me know if you have any other questions about Years IV or V that I can help with.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: year I, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', "The Year IV Summer Semester features 'Industry Internship – II' (CSEg4200). This is another one also", "The Year III Summer Semester is dedicated to practical experience with 'Industry Internship – I' (CS", '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I apologize, but the information I have access to focuses on the final two years (Years IV and V) of the CSE program at ASTU. I don't have details on first-year courses.
+
+To find out about Year I courses, I suggest:
+
+1. **Checking the ASTU Official Website:** The ASTU website likely has a detailed course catalog or academic calendar that lists all courses, including those for freshmen.
+
+2. **Contacting the CSE Department Directly:** Reach out to the CSE department at ASTU. They will have the most up-to-date and complete information on first-year course requirements.
+
+3. **Speaking with an Academic Advisor:** If you are already an ASTU student, your academic advisor can provide personalized guidance on course selection for your first year.
+
+Planning your academic journey is key to success at ASTU! Let me know if you have any other questions about Years IV or V that I can help with.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: year 1, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', '10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', 'Chunk 1: Foundational Core Courses\nDescription: These Year I-II courses establish the mathematical, ', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', "CSEg3202. For Major Elective VII, students choose one 3 credit hour, 5 ECTS course from: 'Electrical", '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I apologize, but the information I have access to focuses on the final two years (Years IV and V) of the CSE program at ASTU. I don't have details on Year I courses.
+
+To find out about Year I courses, I suggest:
+
+1. **Checking the ASTU Official Website:** The ASTU website likely has a detailed course catalog or academic calendar that lists all courses, including those for freshmen.
+
+2. **Contacting the CSE Department Directly:** Reach out to the CSE department at ASTU. They will have the most up-to-date and complete information on first-year course requirements.
+
+3. **Speaking with an Academic Advisor:** If you are already an ASTU student, your academic advisor can provide personalized guidance on course selection for your first year.
+
+Planning your academic journey is key to success at ASTU! Let me know if you have any other questions about Years IV or V that I can help with.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: year I, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', "2. Rule: Graduation Failures\n   Description: Students failing due to 'F' may repeat courses; those w", 'Course Name: Basic Writing Skills\nCourse Code: EnLa-1002\nCredit Hours: 3\nECTS Credits: 5\nWeekly Hour', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', "CSEg3202. For Major Elective VII, students choose one 3 credit hour, 5 ECTS course from: 'Electrical", 'Course Name: Introduction to Computing\nCourse Code: CSEg1101\nCredit Hours: 3\nECTS Credits: 5\nWeekly ']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I apologize, but the information I have access to focuses on the final two years (Years IV and V) of the CSE program at ASTU. I don't have details on Year I courses.
+
+To find out about Year I courses, I suggest:
+
+1. **Checking the ASTU Official Website:** The ASTU website likely has a detailed course catalog or academic calendar that lists all courses, including those for freshmen.
+
+2. **Contacting the CSE Department Directly:** Reach out to the CSE department at ASTU. They will have the most up-to-date and complete information on first-year course requirements.
+
+3. **Speaking with an Academic Advisor:** If you are already an ASTU student, your academic advisor can provide personalized guidance on course selection for your first year.
+
+Planning your academic journey is key to success at ASTU! Let me know if you have any other questions about Years IV or V that I can help with.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: year I, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['10. Course: Major Elective VIII: Human Computer Interaction\n    Code: CSEg4314\n    Prerequisite(s): ', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', "2. Rule: Graduation Failures\n   Description: Students failing due to 'F' may repeat courses; those w", 'Course Name: Basic Writing Skills\nCourse Code: EnLa-1002\nCredit Hours: 3\nECTS Credits: 5\nWeekly Hour', 'Year V, Semester I, the final year, includes capstone projects and specialized topics, totaling 16 c', "CSEg3202. For Major Elective VII, students choose one 3 credit hour, 5 ECTS course from: 'Electrical", 'Course Name: Introduction to Computing\nCourse Code: CSEg1101\nCredit Hours: 3\nECTS Credits: 5\nWeekly ']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I apologize, but the information I have access to focuses on the final two years (Years IV and V) of the CSE program at ASTU. I don't have details on Year I courses.
+
+To find out about Year I courses, I suggest:
+
+1. **Checking the ASTU Official Website:** The ASTU website likely has a detailed course catalog or academic calendar that lists all courses, including those for freshmen.
+
+2. **Contacting the CSE Department Directly:** Reach out to the CSE department at ASTU. They will have the most up-to-date and complete information on first-year course requirements.
+
+3. **Speaking with an Academic Advisor:** If you are already an ASTU student, your academic advisor can provide personalized guidance on course selection for your first year.
+
+Planning your academic journey is key to success at ASTU! Let me know if you have any other questions about Years IV or V that I can help with.
+
+ERROR:root:Error in /delete-doc: 404: No document found with file_id 5.
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: hi, Model: gemini-1.5-flash
+INFO:root:Retrieved 0 docs: []
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: Hi there! I’m the ASTU Student Assistance Bot, your academic navigator, built to help you excel at ASTU with speed and style! What academic question can I help you with today? Perhaps you're wondering about prerequisites, course scheduling, or graduation requirements? Let's get started! Think of me as your personal guide to navigating the academic pathways of ASTU – even better than finding a good spot to study in the Anfi!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 0 docs: []
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I can certainly tell you about the Computer Science and Engineering (CSE) department at ASTU!  Based on the provided information, here's a summary of the program structure, focusing on the final two years:
+
+### ASTU CSE Department: Year IV & V Overview
+
+The CSE program is a rigorous five-year journey, culminating in a capstone project and internship. Years IV and V build upon foundational knowledge, leading to specialization and practical application.
+
+**Year IV, Semester I:** This semester focuses on advanced CSE topics and electives. Key courses include:
+
+*   **`CSEg4207` Microcomputer & Interfacing:** Requires `CSEg3202`.
+*   **`CSEg4203` Formal Language & Automata Theory:** No prerequisites.
+*   **`CSEg4205` Computer Systems Security:** No prerequisites.
+*   **`CSEg4201` Operating Systems:** Requires `CSEg3202`.
+*   **Major Elective IV:** Choice of `CSEg4301` (requires `CSEg2206`) or `PCEg4307` (requires `CSEg2202`).
+*   **Major Elective V:** Choice of `CSEg4303` (requires `EPCE3201`), or `CSEg5306` (requires `CSEg4308`).
+*   **Free Elective II:** A 3-credit course of your choice.
+
+**Year V, Semester I:** This is your final semester! It's all about capstone projects and specialized topics. Courses include:
+
+*   **`CSEg5201` Compiler Design:** Requires `CSEg4203`.
+*   **`CSEg5203` Senior Project I:** Requires completion of senior-standing courses.
+*   **`SOSC5003` Entrepreneurship and Business Development:** No prerequisites.
+*   **`CSEg5205` Special Topics in CSE:** No prerequisites.
+*   **Major Elective IX:** Choice of `CSEg5307` (requires `CSEg3204`), `CSEg5305` (requires `CSEg3202`), or `CSEg5303` (requires `CSEg2208`).
+*   **Free Elective:** A 3-credit course of your choice.
+
+
+**Important Considerations:**
+
+*   **Prerequisites:** Failing a prerequisite will block your registration for the subsequent course. This could significantly delay your graduation. Make sure you pass all prerequisites!
+*   **Academic Advising:** Consult your academic advisor regularly. They can help you plan your course selections and address any challenges you might face.
+*   **Course Schedules:** Always verify course schedules and prerequisites with the ASTU academic office, as information may change.
+
+This is a high-level overview. For detailed course descriptions, credit hours, and specific requirements, refer to the official ASTU course catalog or your academic advisor. Do you have any more specific questions about the CSE department or specific courses? I'm ready to help you navigate your academic journey at ASTU!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: how much time it takes, Model: gemini-1.5-flash
+INFO:root:Retrieved 0 docs: []
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: The provided text only details the final two years (Years IV and V) of the five-year CSE program at ASTU.  Therefore, I cannot answer how much time the entire program takes.  The complete program duration is five years.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 0 docs: []
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: The ASTU Computer Science and Engineering (CSE) department offers a rigorous five-year program.  The final two years (Years IV and V) build upon foundational knowledge with advanced topics and practical application.  Year IV, Semester I includes courses like Microcomputer & Interfacing (requires CSEg3202), Formal Language & Automata Theory, Computer Systems Security, Operating Systems (requires CSEg3202), and electives.  Year V, Semester I focuses on capstone projects, Compiler Design (requires CSEg4203), Senior Project I, Entrepreneurship and Business Development, Special Topics in CSE, and electives.  Prerequisites are crucial; failure to meet them will delay graduation. Consult your academic advisor and the ASTU academic office for detailed information.  My information only covers Years IV and V; for earlier years, check the ASTU website, contact the CSE department, or speak to an academic advisor.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: about software engineering, Model: gemini-1.5-flash
+INFO:root:Retrieved 0 docs: []
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I apologize, but the information I have focuses solely on the Computer Science and Engineering (CSE) program at ASTU, specifically Years IV and V.  I don't have details about a Software Engineering program or its curriculum.
+
+To learn about Software Engineering at ASTU, I recommend:
+
+1. **Checking the ASTU Official Website:** The ASTU website likely has a detailed course catalog or program descriptions for Software Engineering.
+
+2. **Contacting the Relevant Department Directly:**  If ASTU offers a Software Engineering program, it will likely be under a specific department (e.g., CSE, IT). Contact that department directly for the most up-to-date information.
+
+3. **Speaking with an Academic Advisor:** If you are an ASTU student, your academic advisor can provide personalized guidance on whether a Software Engineering program exists and how to enroll.
+
+
+Remember, proactive planning is key to your academic success at ASTU!  Let me know if you have any further questions about the CSE program (Years IV and V) that I *can* answer.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 1 docs: ['Initialize empty vector store']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: The Adama Science and Technology University (ASTU) Computer Science and Engineering (CSE) department offers a rigorous five-year program.  The final two years (Years IV and V) build upon foundational knowledge, focusing on advanced topics and practical application.
+
+**Year IV, Semester I:**  Includes courses like:
+
+*   **`CSEg4207` Microcomputer & Interfacing:** Requires `CSEg3202`.
+*   **`CSEg4203` Formal Language & Automata Theory:** No prerequisites.
+*   **`CSEg4205` Computer Systems Security:** No prerequisites.
+*   **`CSEg4201` Operating Systems:** Requires `CSEg3202`.
+*   Major Electives (specific courses and prerequisites vary)
+*   Free Elective II
+
+**Year V, Semester I:** Focuses on capstone projects and specialized topics:
+
+*   **`CSEg5201` Compiler Design:** Requires `CSEg4203`.
+*   **`CSEg5203` Senior Project I:** Requires completion of senior-standing courses.
+*   **`SOSC5003` Entrepreneurship and Business Development:** No prerequisites.
+*   **`CSEg5205` Special Topics in CSE:** No prerequisites.
+*   Major Electives (specific courses and prerequisites vary)
+*   Free Elective
+
+**Important Considerations:**
+
+*   **Prerequisites:**  Meeting prerequisites is crucial; failure to do so will block registration for subsequent courses and significantly delay graduation.
+*   **Academic Advising:**  Regularly consult your academic advisor for personalized guidance and course planning.
+*   **Course Schedules:** Verify course schedules and prerequisites with the ASTU academic office, as information can change.
+
+This is a high-level overview. For detailed information, including course descriptions, credit hours, and specific requirements for all years, refer to the official ASTU course catalog or your academic advisor.  Do you have any more specific questions about the CSE department or particular courses?
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: hi, Model: gemini-1.5-flash
+INFO:root:Retrieved 1 docs: ['Initialize empty vector store']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: Hello there!  How can I help you navigate your academic journey at ASTU today?  Let's get started!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 1 docs: ['Initialize empty vector store']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: I need more specifics about the CSE department at ASTU to give you a helpful answer.  Are you interested in:
+
+* **Specific courses offered?** (e.g.,  "Tell me about the curriculum for the Data Science specialization.")
+* **Faculty members?** (e.g., "Who teaches Artificial Intelligence at ASTU?")
+* **Research opportunities?** (e.g., "What research labs are available in the CSE department?")
+* **Admission requirements?** (e.g., "What GPA is needed to apply to the CSE program?")
+* **Career prospects for CSE graduates?** (e.g., "What kind of jobs can I get with a CSE degree from ASTU?")
+
+Please clarify your query, and I'll provide you with the most relevant information!  Let's make your ASTU experience a success!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: Admission requirements?, Model: gemini-1.5-flash
+INFO:root:Retrieved 1 docs: ['Initialize empty vector store']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: To provide you with precise admission requirements for the Computer Science and Engineering (CSE) department at ASTU, I need some additional information.  Specifically:
+
+* **Which program are you interested in?**  ASTU's CSE department likely offers various specializations (e.g., Data Science, Software Engineering, Networking). Knowing the specific program will allow me to provide the correct admission criteria.
+
+* **Are you applying for undergraduate or postgraduate studies?**  The requirements differ significantly between undergraduate and graduate programs.
+
+Once you clarify these points, I can access the relevant information and provide you with the precise GPA, entrance exam scores, and other prerequisites needed for admission.  Think of it like preparing for a great *gomen* – the more precise the ingredients, the better the outcome!  Let's get you on the right track to ASTU!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: freshman, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Course Name: Basic Writing Skills\nCourse Code: EnLa-1002\nCredit Hours: 3\nECTS Credits: 5\nWeekly Hour', 'as 2 lecture, 3 tutorial, and 0 lab hours, with no prerequisites. Students are introduced to the fie', 'Year 1, Semester I\n\nSemester Overview: Commences the program with a total of 19 credit hours and 32 ', 'Year 1 of the engineering program comprises two semesters of common courses. Year I, Semester I comm', 'I, Semester II continues to build the foundation with another 19 credit hours and 32 ECTS credits. A', '---\n\nYear 1, Semester II\n\nSemester Overview: Continues to build the foundation with another 19 credi', 'course with 2 lecture and 3 tutorial hours, requiring no prerequisites. Introduction to Civics and E']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: Based on the provided course information, a freshman year at ASTU in the engineering program would look like this:
+
+
+**Year 1, Semester I:**
+
+*   **Applied Mathematics I (Math1101):**  This foundational course introduces essential mathematical concepts.  *No prerequisites.*
+*   **General Physics (Phys1101):**  A core science course.  *No prerequisites.*  
+*   **Communicative English (ENLA 1001):** Improves English communication skills. *No prerequisites*.
+*   **Introduction to Civics and Ethics (LART 1001):** Covers civic responsibility and ethical considerations. *No prerequisites.*
+*   **Health and Physical Education I (HPEd1011):** A pass/fail course focusing on fitness and well-being. *No prerequisites.*
+*   **Introduction to Computing (CSEg1101):** An introductory course to the field of computing. *No prerequisites*.
+
+
+**Year 1, Semester II:**
+
+*   **Applied Mathematics II (Math1102):** A continuation of Math1101.  *Prerequisite: Math1101*.  Failing Math1101 will prevent enrollment in this course.
+*   **Introduction to Emerging Technologies (CSEg1102):**  Explores current technological advancements. *No prerequisites.*
+*   **Fundamentals of Programming C++ (CSEg1104):**  Introduces programming concepts using C++. *No prerequisites*.
+*   **Basic Writing Skills (EnLa-1002):** Focuses on improving fundamental academic writing abilities. *Prerequisite: ENLA 1001*.  Failing ENLA 1001 will prevent enrollment in this course.
+*   **Physical Fitness and Conditioning II (HPEd1022):** Continuation of physical fitness activities. *Prerequisite: HPEd1011*. Failing HPEd1011 will prevent enrollment in this course.
+
+**Important Considerations:**
+
+*   **Prerequisites:**  Failing a prerequisite course will delay your progression in the program.  Plan accordingly and seek help if you are struggling.
+*   **Academic Performance:**  Maintaining a satisfactory GPA is crucial for continued enrollment and potential future opportunities.
+*   **Academic Advising:**  Regularly consult with your academic advisor to ensure you are on track to meet graduation requirements.
+
+
+Remember, tackling your studies with the same dedication you'd show grabbing a *Buna* after a long day will bring you success!  Do you have any further questions about specific courses or the overall curriculum?
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', '4. Rule: Credit Hour Requirements\n   Description: Five-year programs require 150-180 credits. Double', '1. Rule: Double Major and Minor\n   Description: Students with CGPA ≥ 3.50 after three semesters may ', '---\nNotes:\n- Students must verify course schedules with the ASTU academic office, as prerequisites m', "or 'Introduction to Natural Language Processing' (CSEg5306), with 2 lecture and 3 lab hours, requiri", '3. Course: Discrete Mathematics for Computer Science\n   Code: CSEg2210\n   Prerequisite(s): Must comp']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: To give you the best information about the ASTU CSE department, I need some specifics.  Are you interested in:
+
+* **Specific courses?** (e.g., "Tell me about the curriculum for the Data Science specialization.")
+* **Faculty members?** (e.g., "Who teaches Artificial Intelligence at ASTU?")
+* **Research opportunities?** (e.g., "What research labs are available in the CSE department?")
+* **Admission requirements?** (e.g., "What GPA is needed to apply to the CSE program?")
+* **Career prospects for CSE graduates?** (e.g., "What kind of jobs can I get with a CSE degree from ASTU?")
+
+Please clarify your question, and I'll happily provide the details you need! Let's make your ASTU journey a success!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: can i tell me about cse department, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['---\nNotes:\n- Students must verify course schedules with the ASTU academic office, as prerequisites m', 'Prerequisite(s): Must complete Introduction to Computing (CSEg1101), Fundamentals of Programming (CS', 'Course Name: Basic Writing Skills\nCourse Code: EnLa-1002\nCredit Hours: 3\nECTS Credits: 5\nWeekly Hour', 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', 'Eligibility and Evidence:\nIf a student can present sufficient and convincing evidence to the chairpe', "or 'Introduction to Natural Language Processing' (CSEg5306), with 2 lecture and 3 lab hours, requiri", '4. Rule: Credit Hour Requirements\n   Description: Five-year programs require 150-180 credits. Double']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: To best assist you, I need more specifics about your inquiry regarding the ASTU CSE department.  Are you interested in:
+
+* **Specific courses?** (e.g., "Tell me about the curriculum for the Data Science specialization," or "What are the prerequisites for Compiler Design?")
+* **Faculty members?** (e.g., "Who teaches Artificial Intelligence at ASTU?")
+* **Research opportunities?** (e.g., "What research labs are available in the CSE department?")
+* **Admission requirements?** (e.g., "What GPA is needed to apply to the CSE program?")
+* **Career prospects for CSE graduates?** (e.g., "What kind of jobs can I get with a CSE degree from ASTU?")
+
+Please clarify your question, and I'll provide you with the most relevant and detailed information. Let's work together to ensure your ASTU experience is a successful one!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: what is anfi, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ["Name: ASTU Anfi (Amphitheater)\nDescription:\nThe 'Anfi' likely refers to an outdoor amphitheater or a", 'As a science and technology university, ASTU likely hosts one or more Research and Innovation Center', 'University Name: Adama Science and Technology University (ASTU) or also called Astu\n\nAlternative Nam', 'In addition to the Central and Engineering Library, ASTU likely has another significant library reso', 'Name: ASTU Stadium\nDescription:', 'Description:\nASTU provides on-campus primary healthcare services through its University Health Clini', '---\nNotes:\n- Verify rules with the ASTU registrar, as regulations may update.\n- Failing prerequisite']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: The Anfi at Adama Science and Technology University (ASTU) is an outdoor amphitheater-style space.  Students use it for socializing, studying in groups, and informal gatherings. It may also host small performances or university announcements.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: how much time it takes, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['1. Rule: Adding and Dropping Courses\n   Description: Students may add or drop courses within three w', 'Students intending to drop out or withdraw for a semester or an entire academic year are required to', '3. Rule: Dropping Out or Withdrawing\n   Description: Withdrawal requires advisor consultation and ap', 'Preparation Time and Temporary Registration:\nStudents shall be given no more than four weeks to prep', 'Registration for Make-up Exam:\nA student allowed to take a make-up examination must apply and regist', "A student is officially allowed to retake a course to improve a 'D' or 'F' grade.\nA student receives", 'Invigilator Responsibilities (Timing):\nAn invigilator must collect the exam papers from the departme']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: The time it takes depends on what you're asking about.  There are several timeframes mentioned in the provided rules and regulations:
+
+* **Adding or Dropping Courses:** You have three weeks from the end of the normal registration period to make changes.
+
+* **Withdrawing from a Semester or Year:**  You must submit your withdrawal application within six weeks of the semester's registration date to the department head or School dean.  If it's after six weeks, you need SMC approval.
+
+* **Preparing for Supplemental Exams:** You'll have no more than four weeks to prepare.
+
+* **Registering for Make-up Exams:** You must register at least one month before the final exam.
+
+* **Invigilator Responsibilities:**  These have specific timeframes before and after the exam (15-30 minutes).
+
+
+To give you a more precise answer, please specify what process you're inquiring about (adding/dropping courses, withdrawing, exam preparation, etc.).
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: is there common course for all engineering student, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Year 1 Engineering Common Courses Description\n\nThis document details the common courses for the firs', 'Academic Structure (Schools/Colleges/Institutes):\nSchool of Engineering (often the largest, with mul', 'Year 1 of the engineering program comprises two semesters of common courses. Year I, Semester I comm', '7. Course: Major Elective VI: Programming Languages\n   Code: CSEg4306\n   Prerequisite(s): Must compl', '5. Course: Microcomputer & Interfacing\n   Code: CSEg4207\n   Prerequisite(s): Must complete Applied M', '9. Course: Major Elective VIII: Wireless Mobile Networks\n   Code: CSEg4312\n   Prerequisite(s): Must ', '---\nChunk 3: Hardware and Electronics\nDescription: These Year II-IV courses cover electrical enginee']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: Yes, based on the provided text, there are common courses for all first-year engineering students at ASTU during their first two semesters.  These foundational courses cover mathematics, physics, English, civics, and introductory computing, providing a base for subsequent specialization.  The specific courses and their prerequisites are detailed in the provided document.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: can you tell me in detail, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Year 1 Engineering Common Courses Description\n\nThis document details the common courses for the firs', 'Prerequisite(s): Must complete Introduction to Computing (CSEg1101), Fundamentals of Programming (CS', 'Year 1 of the engineering program comprises two semesters of common courses. Year I, Semester I comm', 'In addition to the Central and Engineering Library, ASTU likely has another significant library reso', '---\nNotes:\n- Students must verify course schedules with the ASTU academic office, as prerequisites m', "This is ASTU's largest library, primarily serving senior students, particularly those in engineering", 'Year 1, Semester I\n\nSemester Overview: Commences the program with a total of 19 credit hours and 32 ']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: Based on the provided document, here's a detailed overview of the common first-year engineering courses at ASTU:
+
+**Year 1: A Foundation for Engineering Excellence**
+
+The first year of the ASTU engineering program lays a solid foundation across two semesters, encompassing fundamental sciences and introductory engineering concepts.  Success in these courses is crucial for progression through the program.
+
+**Semester I: Building Blocks**
+
+This semester introduces core concepts with a total of 19 credit hours and 32 ECTS credits.  Key courses include:
+
+*   **Applied Mathematics I (Math1101):** 4 credit hours, 7 ECTS.  This foundational course introduces essential mathematical concepts for engineering.  *No prerequisites*. This course is essential for progression to Applied Mathematics II in Semester II.
+*   **General Physics (Phys1101):** 3 credit hours, 5 ECTS. This course covers fundamental physics principles relevant to engineering. *No prerequisites*.
+*   **Communicative English (ENLA 1001):** This course aims to improve students' English communication skills. *No prerequisites*. This is a prerequisite for Basic Writing Skills in Semester II.
+*   **Introduction to Civics and Ethics (LART 1001):**  This course covers civic responsibility and ethical considerations relevant to the engineering profession. *No prerequisites*.
+*   **Health and Physical Education I (HPEd1011):** This is a pass/fail course focusing on fitness and well-being. *No prerequisites*. This is a prerequisite for Physical Fitness and Conditioning II in Semester II.
+*   **Introduction to Computing (CSEg1101):** This introductory course provides a foundation in computing concepts. *No prerequisites*.
+
+
+**Semester II:  Strengthening the Foundation**
+
+Semester II builds upon the foundation established in Semester I.  Courses include:
+
+*   **Applied Mathematics II (Math1102):**  *Prerequisite: Math1101*.  This course requires successful completion of Applied Mathematics I.  Failure to complete Math1101 will prevent enrollment.
+*   **Introduction to Emerging Technologies (CSEg1102):** This course explores current technological advancements. *No prerequisites*.
+*   **Fundamentals of Programming C++ (CSEg1104):** This course introduces programming concepts using C++. *No prerequisites*.
+*   **Basic Writing Skills (EnLa-1002):** *Prerequisite: ENLA 1001*. This course builds upon the skills learned in Communicative English. Failure to complete ENLA 1001 will prevent enrollment.
+*   **Physical Fitness and Conditioning II (HPEd1022):** *Prerequisite: HPEd1011*. This course continues the focus on physical fitness and well-being. Failure to complete HPEd1011 will prevent enrollment.
+
+
+**Critical Considerations for Success:**
+
+*   **Prerequisites:**  Failing a prerequisite course will directly impact your ability to enroll in subsequent courses and may delay your graduation.
+*   **Academic Performance:** Maintaining a satisfactory GPA is essential for continued enrollment and future opportunities.
+*   **Academic Advising:** Regular consultations with your academic advisor are crucial for staying on track.
+
+
+Remember, consistent effort and proactive engagement with your studies will lead to success at ASTU!  Do you have any further questions about specific courses, prerequisites, or the overall program structure?
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: year I, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Year 1 Engineering Common Courses Description\n\nThis document details the common courses for the firs', 'Prerequisite(s): Must complete Introduction to Computing (CSEg1101), Fundamentals of Programming (CS', 'Year 1 of the engineering program comprises two semesters of common courses. Year I, Semester I comm', 'In addition to the Central and Engineering Library, ASTU likely has another significant library reso', 'Year 1, Semester I\n\nSemester Overview: Commences the program with a total of 19 credit hours and 32 ', '---\nNotes:\n- Students must verify course schedules with the ASTU academic office, as prerequisites m', 'As a science and technology university, ASTU likely hosts one or more Research and Innovation Center']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: Based on the provided text, Year I of the ASTU engineering program consists of two semesters of common courses designed to build a strong foundation in mathematics, physics, and introductory computing concepts.  Success in these courses is crucial for progression to upper-year studies.
+
+**Year 1, Semester I:**
+
+*   **Applied Mathematics I (Math1101):**  4 credit hours, 7 ECTS. No prerequisites.  Essential for progressing to Math1102.
+*   **General Physics (Phys1101):** 3 credit hours, 5 ECTS. No prerequisites.
+*   **Communicative English (ENLA 1001):**  Prerequisite for Basic Writing Skills in Semester II.
+*   **Introduction to Civics and Ethics (LART 1001):**
+*   **Health and Physical Education I (HPEd1011):** Pass/fail course. Prerequisite for HPEd1022 in Semester II.
+*   **Introduction to Computing (CSEg1101):**
+
+**Year 1, Semester II:**
+
+*   **Applied Mathematics II (Math1102):** Prerequisite: Math1101.  Failure to pass Math1101 blocks enrollment.
+*   **Introduction to Emerging Technologies (CSEg1102):**
+*   **Fundamentals of Programming C++ (CSEg1104):**
+*   **Basic Writing Skills (EnLa-1002):** Prerequisite: ENLA 1001. Failure to pass ENLA 1001 blocks enrollment.
+*   **Physical Fitness and Conditioning II (HPEd1022):** Prerequisite: HPEd1011. Failure to pass HPEd1011 blocks enrollment.
+
+
+**Important Note:**  Failing a prerequisite course will delay your academic progress and may impact your ability to graduate on time.  Consult your academic advisor regularly to ensure you are on track.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: cse year 1, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['---\nNotes:\n- Students must verify course schedules with the ASTU academic office, as prerequisites m', 'Prerequisite(s): Must complete Introduction to Computing (CSEg1101), Fundamentals of Programming (CS', 'The five-year Computer Science and Engineering (CSE) accredited program is structured to provide a c', "or 'Introduction to Natural Language Processing' (CSEg5306), with 2 lecture and 3 lab hours, requiri", 'Year IV, Semester I focuses on advanced CSE topics and further electives, amounting to 19 credit hou', "CSEg3202. For Major Elective IV, students select one 3 credit hour, 5 ECTS course from: 'Introductio", "with 2 lecture and 3 lab hours, requiring ECEg2204; 'Complexity Theory' (CSEg4304), a 3 credit hour,"]
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: Based on the provided information, Year I of the ASTU Computer Science and Engineering (CSE) program consists of two semesters with common courses for all engineering students. These courses build a strong foundation in mathematics, physics, and introductory computing concepts.  Success in these courses is crucial for progression to upper-year studies.
+
+**Year 1, Semester I:**
+
+*   **Applied Mathematics I (Math1101):** 4 credit hours, 7 ECTS. No prerequisites.  Essential for progressing to Math1102.
+*   **General Physics (Phys1101):** 3 credit hours, 5 ECTS. No prerequisites.
+*   **Communicative English (ENLA 1001):** Prerequisite for Basic Writing Skills in Semester II.
+*   **Introduction to Civics and Ethics (LART 1001):**
+*   **Health and Physical Education I (HPEd1011):** Pass/fail course. Prerequisite for HPEd1022 in Semester II.
+*   **Introduction to Computing (CSEg1101):**
+
+**Year 1, Semester II:**
+
+*   **Applied Mathematics II (Math1102):** Prerequisite: Math1101.  Failure to pass Math1101 blocks enrollment.
+*   **Introduction to Emerging Technologies (CSEg1102):**
+*   **Fundamentals of Programming C++ (CSEg1104):**
+*   **Basic Writing Skills (EnLa-1002):** Prerequisite: ENLA 1001. Failure to pass ENLA 1001 blocks enrollment.
+*   **Physical Fitness and Conditioning II (HPEd1022):** Prerequisite: HPEd1011. Failure to pass HPEd1011 blocks enrollment.
+
+
+**Important Note:** Failing a prerequisite course will delay your academic progress and may impact your ability to graduate on time. Consult your academic advisor regularly to ensure you are on track.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: what is graduation failer, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Consequences of Insufficient Attendance (Below 80%):\nA student who has missed more than 20% of the s', 'One-Time Re-admission Limit: A student dismissed for academic reasons shall not be readmitted more t', "2. Rule: Graduation Failures\n   Description: Students failing due to 'F' may repeat courses; those w", "Graduation Failures due to 'F' or 'D' Grades:\nAn undergraduate student who fails an examination, res", 'Certificate of Attendance for Unresolved Graduation Failures:\nA student who fails to graduate due to', 'A readmitted student who faces the same situations (discontinued program, no substitute course) for ', 'Consequences of Exceeding Maximum Stay:\nA student who fails to complete their studies before the exp']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: A "graduate failure" at ASTU is a student who has completed their coursework but did not meet the requirements for graduation. This can be due to failing grades ('F' or 'D') or an insufficient Cumulative Grade Point Average (CGPA) or Major Grade Point Average (MGPA).  If a student exhausts all options to improve their grades (e.g., repeating courses) and still doesn't meet the minimum requirements, they receive a certificate of attendance instead of a degree, and their transcript will note them as a "graduate failure".
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: the minimum cgpa, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['1. Rule: Double Major and Minor\n   Description: Students with CGPA ≥ 3.50 after three semesters may ', '2. Rule: Semester Load Adjustments\n   Description: Students need special permission from the Departm', 'Conditions for Granting Re-examination:\nThe courses eligible for re-examination must be those that t', 'Dismissal for Extremely Low SGPA:\nA student who fails to achieve an SGPA of 1.00 in any semester is ', 'Graduation Failures due to Inadequate CGPA and/or MGPA:\nA student who fails to graduate because thei', '2. Rule: Semester Credit Load\n   Description: Normal load is 15-19 credits; up to 22 for graduating ', '---\nNotes:\n- Students must verify course schedules with the ASTU academic office, as prerequisites m']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: The minimum CGPA required for graduation at ASTU is 2.00.  Additionally, a minimum CGPA of 2.00 is required in your major area of study.  A student will not graduate with an 'F' grade in any course.
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: electrical school, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Prerequisite(s): Must complete Introduction to Computing (CSEg1101), Fundamentals of Programming (CS', '1. Course: Major Elective I: Electronic Circuit II\n   Code: ECEg3301\n   Prerequisite(s): Must comple', 'Year II, Semester I shifts towards more specialized engineering subjects, totaling 18 credit hours a', '3. Course: Major Elective VII: Electrical Network Analysis and Synthesis\n   Code: EPCE3201\n   Prereq', '2. Course: Electronics Circuit I\n   Code: ECEg2201\n   Prerequisite(s): Must complete Applied Mathema', 'Year 1, Semester I\n\nSemester Overview: Commences the program with a total of 19 credit hours and 32 ', 'Year 1 of the engineering program comprises two semesters of common courses. Year I, Semester I comm']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: Based on the provided text, there is no specific mention of an "electrical school" at ASTU.  However, the information details courses within the Electrical and Computer Engineering department.  To help you further, could you clarify what information you're seeking about the electrical engineering program at ASTU?  For example, are you interested in:
+
+* **Specific courses offered within electrical engineering?**  (e.g., "Tell me about the curriculum for power systems.")
+* **Faculty members specializing in electrical engineering?**
+* **Research opportunities within the electrical engineering field at ASTU?**
+* **Admission requirements for the electrical engineering program?**
+* **Career prospects for electrical engineering graduates from ASTU?**
+
+Please provide more specifics, and I'll do my best to assist you.  Let's find the answers you need to power your academic success!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: electrical school, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['As a science and technology university, ASTU likely hosts one or more Research and Innovation Center', 'In addition to the Central and Engineering Library, ASTU likely has another significant library reso', "This is ASTU's largest library, primarily serving senior students, particularly those in engineering", 'Department Code: CEng\nDepartment Name: Civil Engineering\nDescription:\nThe Civil Engineering program ', 'Department Code: CSE\nDepartment Name: Computer Science and Engineering\nDescription:\nThe Computer Sci', 'Department Code: DPE\nDepartment Name: Pre-Engineering Stream\nDescription:\nThe Pre-Engineering stream', 'Department Code: SEng\nDepartment Name: Software Engineering\nDescription:\nThe Software Engineering pr']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: Based on the provided text, there is no specific "electrical school" mentioned at ASTU.  However, the university likely has an electrical engineering department within a larger school (like the School of Electrical Engineering and Computing mentioned in the Pre-Engineering description).  To help me give you more specific information, please clarify what you'd like to know about electrical engineering at ASTU.  Are you interested in:
+
+* **Specific courses?** (e.g., "What courses are offered in power systems?")
+* **Faculty?** (e.g., "Who are the professors specializing in power electronics?")
+* **Research opportunities?** (e.g., "What research labs focus on renewable energy?")
+* **Admission requirements?** (e.g., "What GPA is needed to apply to the electrical engineering program?")
+* **Career prospects?** (e.g., "What jobs can I get with an electrical engineering degree from ASTU?")
+
+
+Provide more details, and I'll connect you with the relevant information. Let's illuminate your path to success!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: about software engineering, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Department Code: SEng\nDepartment Name: Software Engineering\nDescription:\nThe Software Engineering pr', 'Department Code: CSE\nDepartment Name: Computer Science and Engineering\nDescription:\nThe Computer Sci', "This is ASTU's largest library, primarily serving senior students, particularly those in engineering", 'In addition to the Central and Engineering Library, ASTU likely has another significant library reso', 'Department Code: MSE\nDepartment Name: Materials Science and Engineering Program\nDescription:\nThe Mat', 'As a science and technology university, ASTU likely hosts one or more Research and Innovation Center', 'The curriculum provides a strong foundation in computer science fundamentals (similar to CSE, includ']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: To best answer your question about Software Engineering at ASTU, I need more specifics. Are you interested in:
+
+* **Specific courses offered in the Software Engineering program?** (e.g., "Tell me about the curriculum for software testing.")
+* **Faculty members in the Software Engineering department?** (e.g., "Who teaches software architecture at ASTU?")
+* **Research opportunities within Software Engineering at ASTU?** (e.g., "What research labs are available in the Software Engineering department?")
+* **Admission requirements for the Software Engineering program?** (e.g., "What GPA is needed to apply to the Software Engineering program?")
+* **Career prospects for Software Engineering graduates?** (e.g., "What kind of jobs can I get with a Software Engineering degree from ASTU?")
+
+
+Please clarify your question, and I'll provide you with the most relevant and detailed information. Let's work together to ensure your ASTU experience is a successful one!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: astu give swoftware, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Department Code: SEng\nDepartment Name: Software Engineering\nDescription:\nThe Software Engineering pr', 'Department Code: CSE\nDepartment Name: Computer Science and Engineering\nDescription:\nThe Computer Sci', "This is ASTU's largest library, primarily serving senior students, particularly those in engineering", 'In addition to the Central and Engineering Library, ASTU likely has another significant library reso', 'As a science and technology university, ASTU likely hosts one or more Research and Innovation Center', 'Department Code: MSE\nDepartment Name: Materials Science and Engineering Program\nDescription:\nThe Mat', 'Department Code: CEng\nDepartment Name: Civil Engineering\nDescription:\nThe Civil Engineering program ']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: To provide you with helpful information about Software Engineering at ASTU, I need more details.  Are you interested in:
+
+* **Specific courses?** (e.g., "What are the prerequisites for Software Design?")
+* **Faculty members?** (e.g., "Who teaches Software Testing at ASTU?")
+* **Research opportunities?** (e.g., "What research labs are available in the Software Engineering department?")
+* **Admission requirements?** (e.g., "What GPA is needed to apply to the Software Engineering program?")
+* **Career prospects for graduates?** (e.g., "What jobs can I get with a Software Engineering degree from ASTU?")
+
+Please clarify your question, and I'll provide the most relevant information. Let's make your ASTU journey a success!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: electrical school, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Department Code: CEng\nDepartment Name: Civil Engineering\nDescription:\nThe Civil Engineering program ', 'Department Code: CSE\nDepartment Name: Computer Science and Engineering\nDescription:\nThe Computer Sci', 'As a science and technology university, ASTU likely hosts one or more Research and Innovation Center', 'Department Code: DPE\nDepartment Name: Pre-Engineering Stream\nDescription:\nThe Pre-Engineering stream', 'School Code: SoEEC\nSchool Name: School of Electrical Engineering and Computing', 'The courses within our degree program incorporate both hardware and relevant software technologies, ', 'Department Code: AMat\nDepartment Name: Applied Mathematics / Computational Mathematics\nDescription:\n']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: Based on the provided text, Adama Science and Technology University (ASTU) doesn't have a designated "electrical school."  However, it almost certainly has an electrical engineering department, likely housed within a larger school such as the School of Electrical Engineering and Computing (SoEEC) mentioned in the context.
+
+To give you precise information, please tell me what you'd like to know about ASTU's electrical engineering program.  For example, are you interested in:
+
+* **Specific courses?** (e.g., "What courses are offered in power systems?")
+* **Faculty?** (e.g., "Who are the professors specializing in power electronics?")
+* **Research opportunities?** (e.g., "What research labs focus on renewable energy?")
+* **Admission requirements?** (e.g., "What GPA is needed to apply?")
+* **Career prospects?** (e.g., "What jobs can I get with an electrical engineering degree?")
+
+The more detail you provide, the better I can assist you in navigating your academic path at ASTU. Let's illuminate your future!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: about software engineering, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Department Code: SEng\nDepartment Name: Software Engineering\nDescription:\nThe Software Engineering pr', 'Department Code: CSE\nDepartment Name: Computer Science and Engineering\nDescription:\nThe Computer Sci', 'The curriculum provides a strong foundation in computer science fundamentals (similar to CSE, includ', 'Prerequisite(s): Must complete Introduction to Computing (CSEg1101), Fundamentals of Programming (CS', 'Department Code: MSE\nDepartment Name: Materials Science and Engineering Program\nDescription:\nThe Mat', 'Department Code: CEng\nDepartment Name: Civil Engineering\nDescription:\nThe Civil Engineering program ', 'The courses within our degree program incorporate both hardware and relevant software technologies, ']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: To give you the most helpful information about Software Engineering at ASTU, I need some specifics.  Are you interested in:
+
+* **Specific courses offered in the Software Engineering program?** (e.g., "Tell me about the curriculum for software testing," or "What are the prerequisites for Software Design?")
+* **Faculty members in the Software Engineering department?** (e.g., "Who teaches software architecture at ASTU?")
+* **Research opportunities within Software Engineering at ASTU?** (e.g., "What research labs are available in the Software Engineering department?")
+* **Admission requirements for the Software Engineering program?** (e.g., "What GPA is needed to apply to the Software Engineering program?")
+* **Career prospects for Software Engineering graduates?** (e.g., "What jobs can I get with a Software Engineering degree from ASTU?")
+
+
+Please clarify your question, and I'll provide you with the most relevant and detailed information. Let's work together to ensure your ASTU experience is a successful one!
+
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Query: how much time it takes, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['1. Rule: Adding and Dropping Courses\n   Description: Students may add or drop courses within three w', 'Students intending to drop out or withdraw for a semester or an entire academic year are required to', '3. Rule: Dropping Out or Withdrawing\n   Description: Withdrawal requires advisor consultation and ap', 'Preparation Time and Temporary Registration:\nStudents shall be given no more than four weeks to prep', 'Registration for Make-up Exam:\nA student allowed to take a make-up examination must apply and regist', "A student is officially allowed to retake a course to improve a 'D' or 'F' grade.\nA student receives", 'Invigilator Responsibilities (Timing):\nAn invigilator must collect the exam papers from the departme']
+INFO:root:Session ID: ecf5d56a-a01c-448a-ab5f-add30e99b68a, Response: The time required depends on the specific process:
+
+* **Adding/Dropping Courses:** Three weeks from the end of the registration period.
+* **Withdrawing:** Within six weeks of registration (or SMC approval if later).
+* **Supplemental Exam Preparation:** Up to four weeks.
+* **Make-up Exam Registration:** At least one month before the final exam.
+* **Invigilator Responsibilities:** Specific times before and after exams (15-30 minutes).
+
+Please clarify which process you're interested in for a more precise answer.
+
+INFO:root:Session ID: 5af215e1-15a4-4e10-8085-e3d506baa05a, Query: hey, Model: gemini-1.5-flash
+WARNING:langchain_google_genai.chat_models:Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised RetryError: Timeout of 600.0s exceeded, last exception: 503 DNS resolution failed for generativelanguage.googleapis.com:443: C-ares status is not ARES_SUCCESS qtype=SRV name=_grpclb._tcp.generativelanguage.googleapis.com: Could not contact DNS servers.
+ERROR:root:Error in /chat: Timeout of 600.0s exceeded, last exception: 503 DNS resolution failed for generativelanguage.googleapis.com:443: C-ares status is not ARES_SUCCESS qtype=SRV name=_grpclb._tcp.generativelanguage.googleapis.com: Could not contact DNS servers
+INFO:root:Session ID: 27d849b8-fb26-4b53-bf33-981f1f85912c, Query: hi, Model: gemini-1.5-flash
+INFO:root:Retrieved 7 docs: ['Name: Main Cafe (Main Auditorium/Multipurpose Hall)\nDescription:', 'Name: Headquarters (Main Administration Building)\nDescription:', 'Name: Registrar Office\nDescription:', 'Name: ASTU Stadium\nDescription:', 'Context: Addresses unavoidable absences. Submit applications promptly.', '11. Course: Major Elective XI: Introduction to Natural Language Processing\n    Code: CSEg5306\n    Pr', 'Name: University Health Clinic / Medical Center\nDescription:']
+INFO:root:Session ID: 27d849b8-fb26-4b53-bf33-981f1f85912c, Response: Hello there! I'm the ASTU Student Assistance Bot, your academic navigator, built to help you excel at ASTU with speed and style!  How can I assist you today?  Perhaps you have questions about courses, university regulations, or something else entirely? Let's get started!
+
