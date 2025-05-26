@@ -28,11 +28,14 @@ async def chat(query_input: QueryInput):
     logging.info(f"Session ID: {session_id}, Query: {query_input.question}, Model: {query_input.model.value}")
     try:
         chat_history = get_chat_history(session_id)
+        if len(chat_history)>=4:
+            chat_history=chat_history[:4]
         rag_chain = get_rag_chain(query_input.model.value)
         result = rag_chain.invoke({
             "input": query_input.question,
             "chat_history": chat_history
         })
+        print(result)
         answer = result['answer']
         context = result.get('context', [])
         logging.info(f"Retrieved {len(context)} docs: {[doc.page_content[:100] for doc in context]}")

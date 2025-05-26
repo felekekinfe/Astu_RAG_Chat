@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyASTU</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         * {
             box-sizing: border-box;
@@ -12,45 +13,51 @@
             padding: 0;
         }
         body {
-            font-family: 'Inter', -apple-ass, BlinkMacassFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Poppins', sans-serif;
             max-width: 1000px;
             margin: 0 auto;
-            padding: 20px;
-            background: linear-gradient(145deg, #1e1e2f, #2a2a40);
-            color: #f5f5f5;
+            padding: 30px 20px;
+            background: #f7f9fc;
+            color: #333;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
         }
         h1 {
             text-align: center;
-            color: #5ce1e6;
+            color: #2c3e50;
             font-size: 2.5rem;
+            font-weight: 600;
             margin-bottom: 1.5rem;
-            text-shadow: 0 2px 8px rgba(92, 225, 230, 0.3);
-            animation: fadeIn 1s ease-in;
+            transition: color 0.3s ease;
+        }
+        h1:hover {
+            color: #3498db;
         }
         #chat-container {
             flex-grow: 1;
-            border: 2px solid #5ce1e6;
-            border-radius: 20px;
+            border: 1px solid #dfe1e5;
+            border-radius: 15px;
             padding: 20px;
             height: 60vh;
             overflow-y: auto;
-            background: rgba(30, 30, 47, 0.95);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
-            transition: border-color 0.3s ease;
+            background: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             margin-bottom: 1.5rem;
+            transition: box-shadow 0.3s ease;
+        }
+        #chat-container:hover {
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
         }
         #chat-container::-webkit-scrollbar {
-            width: 8px;
+            width: 6px;
         }
         #chat-container::-webkit-scrollbar-thumb {
-            background: #5ce1e6;
+            background: #3498db;
             border-radius: 10px;
         }
         #chat-container::-webkit-scrollbar-track {
-            background: #2a2a40;
+            background: #f7f9fc;
         }
         #messages {
             list-style: none;
@@ -58,7 +65,7 @@
         }
         .message-wrapper {
             display: flex;
-            margin: 20px 0;
+            margin: 15px 0;
             align-items: flex-start;
         }
         .user-message-wrapper {
@@ -70,50 +77,51 @@
         .message {
             position: relative;
             padding: 12px 18px;
-            border-radius: 15px;
+            border-radius: 12px;
             line-height: 1.5;
-            max-width: 60%;
+            max-width: 70%;
             word-break: break-word;
-            animation: slideIn 0.5s ease-out;
+            animation: fadeIn 0.4s ease-out;
         }
         .user-message {
-            background: linear-gradient(90deg, #5ce1e6, #00c4b4);
+            background: #3498db;
             color: #fff;
-            border-top-right-radius: 5px;
-            box-shadow: 0 4px 10px rgba(92, 225, 230, 0.3);
+            border-top-right-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
         .user-message::after {
             content: '';
             position: absolute;
             top: 0;
-            right: -10px;
+            right: -8px;
             width: 0;
             height: 0;
-            border-top: 10px solid #5ce1e6;
-            border-left: 10px solid transparent;
-            border-bottom: 10px solid transparent;
+            border-top: 8px solid #3498db;
+            border-left: 8px solid transparent;
+            border-bottom: 8px solid transparent;
         }
         .ass-message {
-            background: linear-gradient(90deg, #a855f7, #7e22ce);
-            color: #fff;
-            border-top-left-radius: 5px;
-            box-shadow: 0 4px 10px rgba(168, 85, 247, 0.3);
+            background: #ecf0f1;
+            color: #2c3e50;
+            border-top-left-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
         .ass-message::before {
             content: '';
             position: absolute;
             top: 0;
-            left: -10px;
+            left: -8px;
             width: 0;
             height: 0;
-            border-top: 10px solid #a855f7;
-            border-right: 10px solid transparent;
-            border-bottom: 10px solid transparent;
+            border-top: 8px solid #ecf0f1;
+            border-right: 8px solid transparent;
+            border-bottom: 8px solid transparent;
         }
         /* Styling for Markdown-rendered content */
         .ass-message h1, .ass-message h2, .ass-message h3 {
-            color: #fff;
+            color: #2c3e50;
             margin: 0.5em 0;
+            font-weight: 600;
         }
         .ass-message ul, .ass-message ol {
             margin: 0.5em 0;
@@ -123,70 +131,82 @@
             margin-bottom: 0.3em;
         }
         .ass-message strong {
-            font-weight: bold;
+            font-weight: 600;
         }
         .ass-message p {
             margin: 0.5em 0;
         }
         .message .timestamp {
             display: block;
-            font-size: 0.75rem;
-            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.7rem;
+            color: rgba(0, 0, 0, 0.5);
             margin-top: 5px;
             text-align: right;
         }
         #input-form {
             display: flex;
-            gap: 15px;
-            margin-top: 1rem;
+            gap: 10px;
+            width: 100%;
+            max-width: 600px; /* Reduced width for centering */
+            margin: 0 auto; /* Center the form horizontally */
             position: relative;
+            background: #fff;
+            padding: 8px;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+        #input-form:hover {
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
         }
         #user-input {
             flex-grow: 1;
             padding: 12px 20px;
-            border: 2px solid #5ce1e6;
-            border-radius: 25px;
-            background: rgba(255, 255, 255, 0.05);
-            color: #f5f5f5;
+            border: 1px solid #dfe1e5;
+            border-radius: 20px;
+            background: #f9fafb;
+            color: #333;
             font-size: 1rem;
             outline: none;
-            transition: border-color 0.3s ease, background 0.3s ease;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
         }
         #user-input:focus {
-            border-color: #a855f7;
-            background: rgba(255, 255, 255, 0.1);
+            border-color: #3498db;
+            box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
         }
         #input-form button {
             padding: 12px 30px;
             border: none;
-            border-radius: 25px;
-            background: linear-gradient(90deg, #5ce1e6, #00c4b4);
+            border-radius: 20px;
+            background: #3498db;
             color: #fff;
             font-size: 1rem;
+            font-weight: 600;
             cursor: pointer;
-            transition: transform 0.2s ease, background 0.3s ease;
+            transition: background 0.3s ease, transform 0.2s ease;
         }
         #input-form button:hover {
-            transform: scale(1.05);
-            background: linear-gradient(90deg, #00c4b4, #5ce1e6);
+            background: #2980b9;
+            transform: translateY(-2px);
         }
         #chat-status {
-            color: #ff6b6b;
+            color: #e74c3c;
             margin-top: 10px;
             font-style: italic;
             text-align: center;
-            animation: fadeIn 1s ease-in;
+            font-size: 0.85rem;
+            animation: fadeIn 0.5s ease-in;
         }
         .loading-spinner {
             display: none;
             width: 20px;
             height: 20px;
-            border: 3px solid #5ce1e6;
+            border: 3px solid #3498db;
             border-top: 3px solid transparent;
             border-radius: 50%;
             animation: spin 1s linear infinite;
             position: absolute;
-            right: 70px;
+            right: 60px;
             top: 50%;
             transform: translateY(-50%);
         }
@@ -194,10 +214,6 @@
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
-        }
-        @keyframes slideIn {
-            from { transform: translateY(20px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
         }
         @keyframes spin {
             0% { transform: rotate(0deg); }
@@ -211,25 +227,30 @@
             #chat-container {
                 height: 50vh;
             }
+            #input-form {
+                max-width: 500px;
+            }
             #user-input, #input-form button {
                 padding: 10px;
                 font-size: 0.9rem;
             }
             .message {
-                max-width: 75%;
+                max-width: 80%;
                 padding: 10px 15px;
             }
         }
         @media (max-width: 480px) {
             h1 {
-                font-size: 1.5rem;
+                font-size: 1.6rem;
             }
             #chat-container {
-                height: 40vh;
+                height: 45vh;
             }
             #input-form {
                 flex-direction: column;
-                gap: 10px;
+                gap: 8px;
+                padding: 6px;
+                max-width: 100%;
             }
             #user-input, #input-form button {
                 width: 100%;
@@ -243,9 +264,9 @@
                 max-width: 85%;
             }
             .user-message::after, .ass-message::before {
-                border-top-width: 8px;
-                border-left-width: 8px;
-                border-right-width: 8px;
+                border-top-width: 6px;
+                border-left-width: 6px;
+                border-right-width: 6px;
             }
         }
     </style>
