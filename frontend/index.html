@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyASTU</title>
+    <title>MyAstu</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
@@ -12,83 +12,98 @@
             margin: 0;
             padding: 0;
         }
+
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Inter', -apple-ass, BlinkMacassFont, 'Segoe UI', Roboto, sans-serif;
             max-width: 1000px;
             margin: 0 auto;
-            padding: 30px 20px;
-            background: #f7f9fc;
-            color: #333;
+            padding: 20px;
+            background: linear-gradient(145deg, #1e1e2f, #2a2a40);
+            color: #f5f5f5;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
         }
-        h1 {
+
+        .header {
             text-align: center;
-            color: #2c3e50;
+            color: #5ce1e6;
             font-size: 2.5rem;
-            font-weight: 600;
             margin-bottom: 1.5rem;
-            transition: color 0.3s ease;
+            text-shadow: 0 2px 8px rgba(92, 225, 230, 0.3);
+            animation: fadeIn 1s ease-in;
         }
-        h1:hover {
-            color: #3498db;
-        }
+
         #chat-container {
             flex-grow: 1;
-            border: 1px solid #dfe1e5;
-            border-radius: 15px;
+            border: 2px solid #5ce1e6;
+            border-radius: 20px;
             padding: 20px;
             height: 60vh;
             overflow-y: auto;
-            background: #fff;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background: rgba(30, 30, 47, 0.95);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+            transition: border-color 0.3s ease;
             margin-bottom: 1.5rem;
             transition: box-shadow 0.3s ease;
         }
         #chat-container:hover {
             box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
         }
+
         #chat-container::-webkit-scrollbar {
             width: 6px;
         }
+
         #chat-container::-webkit-scrollbar-thumb {
-            background: #3498db;
+            background: #5ce1e6;
             border-radius: 10px;
         }
-        #chat-container::-webkit-scrollbar-track {
-            background: #f7f9fc;
+
+        #chat-container::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
         }
+
+        #chat-container::-webkit-scrollbar-track {
+            background: #2a2a40;
+        }
+
         #messages {
             list-style: none;
             padding: 0;
         }
+
         .message-wrapper {
             display: flex;
-            margin: 15px 0;
+            margin: 20px 0;
             align-items: flex-start;
         }
+
         .user-message-wrapper {
             justify-content: flex-end;
         }
+
         .ass-message-wrapper {
             justify-content: flex-start;
         }
+
         .message {
             position: relative;
             padding: 12px 18px;
-            border-radius: 12px;
+            border-radius: 15px;
             line-height: 1.5;
-            max-width: 70%;
+            max-width: 60%;
             word-break: break-word;
-            animation: fadeIn 0.4s ease-out;
+            animation: slideIn 0.5s ease-out;
         }
+
         .user-message {
-            background: #3498db;
+            background: linear-gradient(90deg, #5ce1e6, #00c4b4);
             color: #fff;
-            border-top-right-radius: 4px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-top-right-radius: 5px;
+            box-shadow: 0 4px 10px rgba(92, 225, 230, 0.3);
         }
+
         .user-message::after {
             content: '';
             position: absolute;
@@ -96,59 +111,103 @@
             right: -8px;
             width: 0;
             height: 0;
-            border-top: 8px solid #3498db;
-            border-left: 8px solid transparent;
-            border-bottom: 8px solid transparent;
+            border-top: 10px solid #5ce1e6;
+            border-left: 10px solid transparent;
+            border-bottom: 10px solid transparent;
         }
+
         .ass-message {
-            background: #ecf0f1;
-            color: #2c3e50;
-            border-top-left-radius: 4px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(90deg, #a855f7, #7e22ce);
+            color: #fff;
+            border-top-left-radius: 5px;
+            box-shadow: 0 4px 10px rgba(168, 85, 247, 0.3);
         }
+
         .ass-message::before {
             content: '';
             position: absolute;
             top: 0;
-            left: -8px;
+            left: -10px;
             width: 0;
             height: 0;
-            border-top: 8px solid #ecf0f1;
-            border-right: 8px solid transparent;
-            border-bottom: 8px solid transparent;
+            border-top: 10px solid #a855f7;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid transparent;
         }
-        /* Styling for Markdown-rendered content */
+
+        /* Markdown styling */
         .ass-message h1, .ass-message h2, .ass-message h3 {
-            color: #2c3e50;
+            color: #fff;
             margin: 0.5em 0;
-            font-weight: 600;
         }
+
+        .ass-message h1 {
+            font-size: 1.2em;
+            color: #1e40af;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 0.2em;
+        }
+
+        .ass-message h2 {
+            font-size: 1.1em;
+            color: #059669;
+        }
+
+        .ass-message h3 {
+            font-size: 1em;
+            color: #7c3aed;
+        }
+
         .ass-message ul, .ass-message ol {
             margin: 0.5em 0;
             padding-left: 1.5em;
         }
+
         .ass-message li {
             margin-bottom: 0.3em;
         }
+
         .ass-message strong {
-            font-weight: 600;
+            font-weight: bold;
         }
+
         .ass-message p {
-            margin: 0.5em 0;
+            margin: 0.4em 0;
         }
+
+        .ass-message code {
+            background: #e0e7ff;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+            color: #3730a3;
+            font-size: 0.9em;
+        }
+
+        .ass-message blockquote {
+            border-left: 3px solid #1e40af;
+            padding-left: 1em;
+            margin: 0.5em 0;
+            color: #64748b;
+            font-style: italic;
+        }
+
         .message .timestamp {
             display: block;
-            font-size: 0.7rem;
-            color: rgba(0, 0, 0, 0.5);
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.7);
             margin-top: 5px;
             text-align: right;
         }
+
+        .ass-message .timestamp {
+            color: #94a3b8;
+        }
+
         #input-form {
             display: flex;
-            gap: 10px;
-            width: 100%;
-            max-width: 600px; /* Reduced width for centering */
-            margin: 0 auto; /* Center the form horizontally */
+            gap: 15px;
+            margin-top: 1rem;
             position: relative;
             background: #fff;
             padding: 8px;
@@ -159,132 +218,179 @@
         #input-form:hover {
             box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
         }
+
         #user-input {
             flex-grow: 1;
             padding: 12px 20px;
-            border: 1px solid #dfe1e5;
-            border-radius: 20px;
-            background: #f9fafb;
-            color: #333;
+            border: 2px solid #5ce1e6;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.05);
+            color: #f5f5f5;
             font-size: 1rem;
             outline: none;
-            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+            transition: border-color 0.3s ease, background 0.3s ease;
         }
+
         #user-input:focus {
-            border-color: #3498db;
-            box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+            border-color: #a855f7;
+            background: rgba(255, 255, 255, 0.1);
         }
+
+        #user-input::placeholder {
+            color: #94a3b8;
+        }
+
         #input-form button {
-            padding: 12px 30px;
+            padding: 14px 28px;
             border: none;
-            border-radius: 20px;
-            background: #3498db;
+            border-radius: 25px;
+            background: linear-gradient(90deg, #5ce1e6, #00c4b4);
             color: #fff;
             font-size: 1rem;
-            font-weight: 600;
             cursor: pointer;
-            transition: background 0.3s ease, transform 0.2s ease;
+            transition: transform 0.2s ease, background 0.3s ease;
         }
+
         #input-form button:hover {
-            background: #2980b9;
-            transform: translateY(-2px);
+            transform: scale(1.05);
+            background: linear-gradient(90deg, #00c4b4, #5ce1e6);
         }
+
         #chat-status {
-            color: #e74c3c;
+            color: #ff6b6b;
             margin-top: 10px;
             font-style: italic;
             text-align: center;
-            font-size: 0.85rem;
-            animation: fadeIn 0.5s ease-in;
+            animation: fadeIn 1s ease-in;
         }
+
         .loading-spinner {
             display: none;
             width: 20px;
             height: 20px;
-            border: 3px solid #3498db;
+            border: 3px solid #5ce1e6;
             border-top: 3px solid transparent;
             border-radius: 50%;
             animation: spin 1s linear infinite;
             position: absolute;
-            right: 60px;
+            right: 70px;
             top: 50%;
             transform: translateY(-50%);
         }
-        /* Animations */
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+
+        @keyframes spin {
+            0% { transform: translateY(-50%) rotate(0deg); }
+            100% { transform: translateY(-50%) rotate(360deg); }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
         }
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+
         /* Responsive Design */
         @media (max-width: 768px) {
+            body {
+                padding: 16px;
+            }
+
             h1 {
                 font-size: 2rem;
             }
-            #chat-container {
-                height: 50vh;
-            }
-            #input-form {
-                max-width: 500px;
-            }
-            #user-input, #input-form button {
-                padding: 10px;
+
+            .subtitle {
                 font-size: 0.9rem;
             }
+
+            #chat-container {
+                height: 65vh;
+                padding: 20px;
+            }
+            #user-input, #input-form button {
+                padding: 12px 16px;
+                font-size: 0.95rem;
+            }
+
             .message {
-                max-width: 80%;
+                max-width: 75%;
                 padding: 10px 15px;
             }
         }
+
         @media (max-width: 480px) {
+            body {
+                padding: 12px;
+            }
+
+            .header {
+                margin-bottom: 1.5rem;
+                padding: 1rem 0;
+            }
+
             h1 {
-                font-size: 1.6rem;
+                font-size: 1.5rem;
             }
+
             #chat-container {
-                height: 45vh;
+                height: 40vh;
             }
+
             #input-form {
                 flex-direction: column;
                 gap: 8px;
                 padding: 6px;
                 max-width: 100%;
             }
+
             #user-input, #input-form button {
                 width: 100%;
-                padding: 12px;
-                font-size: 0.85rem;
+                padding: 12px 16px;
+                font-size: 0.9rem;
             }
+
             .loading-spinner {
                 right: 20px;
+                top: 20px;
+                transform: none;
             }
+
             .message {
-                max-width: 85%;
+                max-width: 90%;
+                padding: 10px 12px;
             }
+
             .user-message::after, .ass-message::before {
-                border-top-width: 6px;
-                border-left-width: 6px;
-                border-right-width: 6px;
+                border-top-width: 8px;
+                border-left-width: 8px;
+                border-right-width: 8px;
             }
         }
     </style>
 </head>
 <body>
-    <h1>ASTU RAG Chat</h1>
+    <div class="header">
+        <h1>MyAstu <span class="online-indicator"></span></h1>
+        <p class="subtitle">Your AI-powered university assistant</p>
+    </div>
+    
     <div id="chat-container" role="log" aria-live="polite">
         <ul id="messages"></ul>
     </div>
+    
     <form id="input-form">
         <input 
             type="text" 
             id="user-input" 
-            placeholder="Type your question..." 
+            placeholder="Ask about courses, schedules, campus information..." 
             required 
             aria-label="Enter your question"
         >
-        <button type="submit" aria-label="Send message">Send</button>
+        <button type="submit" aria-label="Send message">
+            Send
+        </button>
         <div class="loading-spinner" id="loading-spinner"></div>
     </form>
     <p id="chat-status" aria-live="assertive"></p>
