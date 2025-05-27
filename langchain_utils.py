@@ -56,7 +56,7 @@ Question: {input}"""),
         multi_query_prompt = PromptTemplate(
             input_variables=["question"],
             template="""You are an AI language model assistant. Your task is to generate exactly 5 different versions of the given user question to retrieve relevant documents from a vector database. These versions should explore different perspectives or phrasings to overcome limitations of distance-based similarity search. If the question is vague (e.g., "yo"), generate broad queries to explore possible academic intents related to ASTU, such as course prerequisites, registration, or academic policies. Provide the alternative questions separated by newlines.
-Original question: {question} and use Chat History if and only it makes sense """
+Original question: {question} and use Chat History:  if and only it makes sense """
         )
 
         # Initialize MultiQueryRetriever
@@ -129,32 +129,3 @@ Even for vague queries, extract relevant insights from the context (e.g., common
     except Exception as e:
         logging.error(f"Error creating RAG chain: {str(e)}")
         raise
-
-# Test the chain
-if __name__ == "__main__":
-    rag_chain = get_rag_chain()
-    # Test with a vague query
-    response_vague = rag_chain.invoke({
-        "input": "hey",
-        "chat_history": [
-            {"role": "human", "content": "hi"},
-            {"role": "assistant", "content": "Hi there! I'm the ASTU Student Assistance Bot, your academic navigator, built to help you excel at ASTU with speed and style! How can I assist you today? Do you have questions about courses, exams, registration, or something else entirely? Let's tackle your academic queries like you're sprinting to a buna break!"},
-            {"role": "human", "content": "yo"},
-            {"role": "assistant", "content": "Yo! What's up? Let's get those academic questions answered. Need help with courses, registration, or something else? Tell me what's on your mind, and let's get you moving toward graduation!"}
-        ]
-    })
-    logging.info(f"Response for vague query: {response_vague['answer']}")
-    logging.info(f"Retrieved documents: {[doc.page_content[:100] for doc in response_vague['context']]}")
-
-    # Test with a specific query
-    response_specific = rag_chain.invoke({
-        "input": "what is the requirment to study cse in astu",
-        "chat_history": [
-            {"role": "human", "content": "hi"},
-            {"role": "assistant", "content": "Hi there! I'm the ASTU Student Assistance Bot, your academic navigator, built to help you excel at ASTU with speed and style! How can I assist you today? Do you have questions about courses, exams, registration, or something else entirely? Let's tackle your academic queries like you're sprinting to a buna break!"},
-            {"role": "human", "content": "yo"},
-            {"role": "assistant", "content": "Yo! What's up? Let's get those academic questions answered. Need help with courses, registration, or something else? Tell me what's on your mind, and let's get you moving toward graduation!"}
-        ]
-    })
-    logging.info(f"Response for specific query: {response_specific['answer']}")
-    logging.info(f"Retrieved documents: {[doc.page_content[:100] for doc in response_specific['context']]}")
