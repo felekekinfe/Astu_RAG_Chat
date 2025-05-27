@@ -55,8 +55,8 @@ Question: {input}"""),
         # Custom prompt for MultiQueryRetriever (already provided in logs)
         multi_query_prompt = PromptTemplate(
             input_variables=["question"],
-            template="""You are an AI language model assistant. Your task is to generate exactly 3 different versions of the given user question to retrieve relevant documents from a vector database. These versions should explore different perspectives or phrasings to overcome limitations of distance-based similarity search. If the question is vague (e.g., "yo"), generate broad queries to explore possible academic intents related to ASTU, such as course prerequisites, registration, or academic policies. Provide the alternative questions separated by newlines.
-Original question: {question}"""
+            template="""You are an AI language model assistant. Your task is to generate exactly 5 different versions of the given user question to retrieve relevant documents from a vector database. These versions should explore different perspectives or phrasings to overcome limitations of distance-based similarity search. If the question is vague (e.g., "yo"), generate broad queries to explore possible academic intents related to ASTU, such as course prerequisites, registration, or academic policies. Provide the alternative questions separated by newlines.
+Original question: {question} and use Chat History if and only it makes sense """
         )
 
         # Initialize MultiQueryRetriever
