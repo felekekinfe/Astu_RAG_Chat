@@ -67,7 +67,7 @@ async def upload_and_index_document(file: UploadFile = File(...)):
             delete_document_record(file_id)
             raise HTTPException(status_code=500, detail=f"Failed to index {file.filename}.")
     except Exception as e:
-        logging.error(f"Error in /upload-doc: {str(e)})
+        logging.error(f"Error in /upload-doc: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Internal error: {str(e)}")
     finally:
         if os.path.exists(temp_file_path):
