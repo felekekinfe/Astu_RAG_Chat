@@ -61,7 +61,7 @@ Question: {input}"""),
         # --- Inject doc.txt content into MultiQuery Prompt Template ---
         multi_query_context_string = ""
         try:
-            with open('data/code.txt', 'r') as f:
+            with open('code.txt', 'r') as f:
                 multi_query_context_string = f.read()
             logging.info("Successfully read doc.txt for multi-query context.")
         except FileNotFoundError:
