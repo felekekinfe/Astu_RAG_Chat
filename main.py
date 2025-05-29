@@ -21,32 +21,64 @@ app.mount("/static", StaticFiles(directory="frontend"), name="static")
 async def home():
 	return FileResponse('frontend/index.html')
 	
+
 # Chat endpoint
 @app.post("/chat", response_model=QueryResponse)
 async def chat(query_input: QueryInput):
-    session_id = query_input.session_id or str(uuid.uuid4())
-    logging.info(f"Session ID: {session_id}, Query: {query_input.question}, Model: {query_input.model.value}")
+    # Use the session_id from input if provided, otherwise generate a new one
+    current_session_id = query_input.session_id 
+    if not current_session_id: # This handles the first message from a new session
+        current_session_id = str(uuid.uuid4())
+        logging.info(f"New session created: {current_session_id}")
+    else:
+         logging.info(f"Using existing session: {current_session_id}")
+
+
     try:
-        chat_history = get_chat_history(session_id)
-        if len(chat_history)>=4:
-            chat_history=chat_history[:4]
-        rag_chain = get_rag_chain(query_input.model.value)
+        # --- Use the imported get_chat_history ---
+        # get_chat_history from db_utils returns Langchain Message objects
+        chat_history_messages = get_chat_history(current_session_id)
+        # --- End Use ---
+        print(f'chatttt {chat_history_messages}')
+        
+        # Apply history trimming (optional, based on your needs)
+        # Keep the last N turns (N pairs of HumanMessage/AIMessage)
+        max_history_turns = 5 # Example: keep last 5 turns (10 messages)
+        if len(chat_history_messages) > max_history_turns * 2:
+             # Keep only the last 'max_history_turns' pairs
+            chat_history_messages = chat_history_messages[-max_history_turns * 2:]
+            logging.info(f"Trimmed history for session {current_session_id} to last {max_history_turns} turns.")
+
+        logging.info(f"Session ID: {current_session_id}, Query: {query_input.question}, Model: {query_input.model.value}")
+        logging.info(f"Passing history (length {len(chat_history_messages)} messages) to RAG chain.") # Log message count
+
+        # Make sure get_rag_chain is callable and works with your setup
+        rag_chain = get_rag_chain(query_input.model.value) 
+
+        # Invoke the RAG chain
         result = rag_chain.invoke({
             "input": query_input.question,
-            "chat_history": chat_history
+            "chat_history": chat_history_messages # Pass the retrieved history (Langchain Message objects)
         })
-        print(result)
-        answer = result['answer']
-        context = result.get('context', [])
-        logging.info(f"Retrieved {len(context)} docs: {[doc.page_content[:100] for doc in context]}")
-        print(f"Retrieved {len(context)} docs: {[doc.page_content[:100] for doc in context]}")
-        insert_application_logs(session_id, query_input.question, answer, query_input.model.value)
-        logging.info(f"Session ID: {session_id}, Response: {answer}")
-        return QueryResponse(answer=answer, session_id=session_id, model=query_input.model)
-    except Exception as e:
-        logging.error(f"Error in /chat: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Internal error: {str(e)}")
 
+        answer = result.get('answer', 'Sorry, I could not generate an answer based on the provided information.')
+        context = result.get('context', [])
+        
+        logging.info(f"Retrieved {len(context)} docs.")
+        # You can print or log context snippet if needed, e.g., print(f"Context: {[doc.page_content[:50].replace('\\n', ' ') + '...' for doc in context]}")
+
+        # --- Use the imported insert_application_logs to save the turn ---
+        insert_application_logs(current_session_id, query_input.question, answer, query_input.model.value)
+        # --- End Use ---
+
+        logging.info(f"Session ID: {current_session_id}, Response: {answer[:100]}...") # Log snippet of response
+
+        # Return the determined session_id in the response
+        return QueryResponse(answer=answer, session_id=current_session_id, model=query_input.model)
+
+    except Exception as e:
+        logging.error(f"Error in /chat for session {current_session_id}: {str(e)}", exc_info=True) # Log exception details
+        raise HTTPException(status_code=500, detail=f"Internal error: {str(e)}")
 # Upload document endpoint
 @app.post("/upload-doc")
 async def upload_and_index_document(file: UploadFile = File(...)):
