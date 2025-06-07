@@ -74,7 +74,7 @@ Question: {input}"""),
         multi_query_template_string = f"""You are an AI language model assistant. Your task is to generate exactly 5 different versions of the given user question to retrieve relevant documents from a vector database. These versions should explore different perspectives or phrasings to overcome limitations of distance-based similarity search.
 
         If the question is vague (e.g., "yo", "hey", "tell me about this"), use the provided ASTU academic context below to generate broad queries related to common student inquiries (e.g., course prerequisites, registration, academic policies) that are relevant to the context.
-
+	If the question is like 'hi','hello' 'whatsup'..etc kind of greeting use greting dont generate query about astu.
         If the question is specific, generate 5 variations that rephrase or explore related aspects of the specific question, also keeping the ASTU context in mind.
 
         Provide the alternative questions separated by newlines.
