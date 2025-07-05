@@ -52,7 +52,7 @@ def get_rag_chain(model="gemini-1.5-flash"):
         # This prompt takes chat history and the latest input to create a clear, standalone query.
         contextualize_q_prompt = ChatPromptTemplate.from_messages([
             ("human", """Given the chat history and the latest user question, reformulate the question into a clear, standalone query that captures the core intent. This query will be used to retrieve relevant documents.
-If the question is vague (e.g., "yo" or "hey"), interpret it as a request for general academic guidance at ASTU, focusing on common student needs like course prerequisites, registration, or academic standing, and formulate a query to find general ASTU academic info.
+If the question is vague (e.g., "yo" or "hey"), interpret it as a greeting request for general academic guidance at ASTU, focusing on common student needs like course prerequisites, registration, or academic standing, and formulate a query to find general ASTU academic info.
 Keep the standalone query short and ASTU-specific. Do not answer the question or add extra context like 'Based on...', etc.
 Chat History: {chat_history}
 Question: {input}"""),
@@ -79,7 +79,7 @@ Question: {input}"""),
 
         Provide the alternative questions separated by newlines.
 
-        Original question: {{question}}
+        riginal question: {{question}}
 
         ASTU Academic Context (Use this to guide your query variations, especially for vague questions):
         {multi_query_context_string}
