@@ -72,14 +72,14 @@ Question: {input}"""),
         # Construct the template string with the doc.txt content embedded
         # The LLM is instructed to use this embedded context when generating queries.
         multi_query_template_string = f"""You are an AI language model assistant. Your task is to generate exactly 5 different versions of the given user question to retrieve relevant documents from a vector database. These versions should explore different perspectives or phrasings to overcome limitations of distance-based similarity search.
-
+        if its greeting g hi or other give greeting back politely
         If the question is vague (e.g., "yo", "hey", "tell me about this"), use the provided ASTU academic context below to generate broad queries related to common student inquiries (e.g., course prerequisites, registration, academic policies) that are relevant to the context.
 	If the question is like 'hi','hello' 'whatsup'..etc kind of greeting use greting dont generate query about astu.
         If the question is specific, generate 5 variations that rephrase or explore related aspects of the specific question, also keeping the ASTU context in mind.
 
         Provide the alternative questions separated by newlines.
 
-        riginal question: {{question}}
+        Original question: {{question}}
 
         ASTU Academic Context (Use this to guide your query variations, especially for vague questions):
         {multi_query_context_string}
